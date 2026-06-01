@@ -22,7 +22,7 @@ export default function TrackerTable() {
             </th>
             {MILESTONES.map(m => (
               <th key={m} className="text-center px-2 py-2.5 w-16">
-                <span className="font-mono text-[10px] uppercase tracking-widest text-brand-orange">
+                <span className="font-mono text-[10px] uppercase tracking-widest text-brand-teal">
                   {m}
                 </span>
               </th>
@@ -49,7 +49,7 @@ export default function TrackerTable() {
                 <div className="font-bold text-white text-sm tracking-wide leading-tight">
                   {r.company}
                 </div>
-                <div className="font-mono text-[11px] text-brand-orange mt-0.5">
+                <div className="font-mono text-[11px] text-brand-teal mt-0.5">
                   {r.reactor}
                 </div>
               </td>

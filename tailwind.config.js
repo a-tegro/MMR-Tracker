@@ -5,15 +5,16 @@ export default {
     extend: {
       colors: {
         brand: {
-          orange: '#FF5500',
-          'orange-light': '#FF7733',
+          teal: '#348385',
+          'teal-light': '#addfe3',
+          'teal-dark': '#295c60',
           green: '#22c55e',
           amber: '#F59E0B',
-          dark: '#0F0F0F',
-          surface: '#1A1A1A',
-          card: '#222222',
-          border: '#2E2E2E',
-          muted: '#888888',
+          dark: '#0C1B1E',
+          surface: '#143639',
+          card: '#1b4448',
+          border: '#1f4f54',
+          muted: '#6b8e92',
         },
       },
       fontFamily: {

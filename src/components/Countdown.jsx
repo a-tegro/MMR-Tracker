@@ -31,7 +31,7 @@ function Unit({ value, label }) {
 }
 
 function Sep() {
-  return <div className="font-mono text-3xl font-bold text-brand-orange pb-2 select-none">:</div>
+  return <div className="font-mono text-3xl font-bold text-brand-teal pb-2 select-none">:</div>
 }
 
 export default function Countdown() {
@@ -56,7 +56,7 @@ export default function Countdown() {
         <Unit value={time.seconds} label="seconds" />
       </div>
       <div className="flex items-center gap-2">
-        <div className="w-2 h-2 rounded-full bg-brand-orange animate-pulse" />
+        <div className="w-2 h-2 rounded-full bg-brand-teal animate-pulse" />
         <span className="font-mono text-xs text-zinc-400 uppercase tracking-widest">
           T–{totalDays} days to July 4, 2026
         </span>

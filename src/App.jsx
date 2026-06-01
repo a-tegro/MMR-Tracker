@@ -1,15 +1,16 @@
 import Countdown from './components/Countdown'
 import TrackerTable from './components/TrackerTable'
 import MilestoneLegend from './components/MilestoneLegend'
+import TegroLogo from './components/TegroLogo'
 
 export default function App() {
   return (
     <div className="min-h-screen bg-brand-dark text-white">
       {/* Top bar */}
-      <div className="border-b border-brand-border bg-brand-surface/60">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center gap-3">
-          <div className="w-3 h-0.5 bg-brand-orange" />
-          <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">
+      <div className="border-b border-brand-border bg-brand-surface/80">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+          <TegroLogo />
+          <span className="font-mono text-[10px] uppercase tracking-widest text-brand-muted hidden sm:block">
             Executive Order 14301 · Pilot Program Tracker
           </span>
         </div>
@@ -22,7 +23,7 @@ export default function App() {
           <div>
             <h1 className="font-mono font-bold leading-none">
               <span className="text-5xl sm:text-7xl text-white block">RACE TO</span>
-              <span className="text-5xl sm:text-7xl text-brand-orange block">CRITICALITY</span>
+              <span className="text-5xl sm:text-7xl text-brand-teal block">CRITICALITY</span>
             </h1>
             <p className="text-zinc-400 text-sm mt-4 max-w-lg leading-relaxed">
               Twelve advanced reactor designs from U.S. nuclear startups racing toward
@@ -62,7 +63,7 @@ export default function App() {
             U.S. 250th birthday
           </p>
           <div className="sm:ml-auto shrink-0">
-            <div className="bg-brand-orange text-white font-mono font-bold text-2xl px-5 py-2 rounded">
+            <div className="bg-brand-teal text-white font-mono font-bold text-2xl px-5 py-2 rounded">
               T–{Math.ceil((new Date('2026-07-04') - new Date()) / (1000 * 60 * 60 * 24))}
               <span className="text-sm font-normal ml-1">DAYS</span>
             </div>
@@ -91,7 +92,7 @@ export default function App() {
         {/* Footer */}
         <div className="border-t border-brand-border pt-6 flex flex-col sm:flex-row justify-between gap-2">
           <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-brand-orange" />
+            <div className="w-2 h-2 rounded-full bg-brand-teal" />
             <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">
               This Week in Nuclear
             </span>

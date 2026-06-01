@@ -1,10 +1,10 @@
 const STATUS_STYLES = {
-  approved:  { bg: 'bg-green-600',        border: 'border-green-500',  text: 'text-green-100',  ring: 'ring-green-500' },
-  in_review: { bg: 'bg-amber-500',        border: 'border-amber-400',  text: 'text-amber-100',  ring: 'ring-amber-400' },
-  pre_app:   { bg: 'bg-yellow-800',       border: 'border-yellow-700', text: 'text-yellow-200', ring: 'ring-yellow-600' },
-  target:    { bg: 'bg-orange-600',       border: 'border-orange-500', text: 'text-orange-100', ring: 'ring-orange-500' },
-  pending:   { bg: 'bg-transparent',      border: 'border-zinc-600',   text: 'text-zinc-500',   ring: '' },
-  unknown:   { bg: 'bg-transparent',      border: 'border-zinc-700',   text: 'text-zinc-600',   ring: '' },
+  approved:  { bg: 'bg-green-700',         border: 'border-green-500',    text: 'text-green-100',      ring: 'ring-green-500' },
+  in_review: { bg: 'bg-amber-500',         border: 'border-amber-400',    text: 'text-amber-100',      ring: 'ring-amber-400' },
+  pre_app:   { bg: 'bg-brand-card',        border: 'border-brand-border', text: 'text-brand-teal',     ring: '' },
+  target:    { bg: 'bg-brand-teal',        border: 'border-brand-teal',   text: 'text-white',          ring: 'ring-brand-teal' },
+  pending:   { bg: 'bg-transparent',       border: 'border-brand-border', text: 'text-brand-muted',    ring: '' },
+  unknown:   { bg: 'bg-transparent',       border: 'border-brand-border', text: 'text-brand-muted/50', ring: '' },
 }
 
 const ICONS = {
