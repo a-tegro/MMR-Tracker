@@ -1,0 +1,60 @@
+const STATUS_STYLES = {
+  approved:  { bg: 'bg-green-600',        border: 'border-green-500',  text: 'text-green-100',  ring: 'ring-green-500' },
+  in_review: { bg: 'bg-amber-500',        border: 'border-amber-400',  text: 'text-amber-100',  ring: 'ring-amber-400' },
+  pre_app:   { bg: 'bg-yellow-800',       border: 'border-yellow-700', text: 'text-yellow-200', ring: 'ring-yellow-600' },
+  target:    { bg: 'bg-orange-600',       border: 'border-orange-500', text: 'text-orange-100', ring: 'ring-orange-500' },
+  pending:   { bg: 'bg-transparent',      border: 'border-zinc-600',   text: 'text-zinc-500',   ring: '' },
+  unknown:   { bg: 'bg-transparent',      border: 'border-zinc-700',   text: 'text-zinc-600',   ring: '' },
+}
+
+const ICONS = {
+  approved:  () => (
+    <svg viewBox="0 0 16 16" className="w-4 h-4" fill="none">
+      <circle cx="8" cy="8" r="7" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="1.5" />
+      <path d="M5 8l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  in_review: () => (
+    <svg viewBox="0 0 16 16" className="w-4 h-4" fill="none">
+      <circle cx="8" cy="8" r="7" stroke="currentColor" strokeWidth="1.5" />
+      <circle cx="8" cy="8" r="3" fill="currentColor" />
+    </svg>
+  ),
+  pre_app: () => (
+    <svg viewBox="0 0 16 16" className="w-4 h-4" fill="none">
+      <circle cx="8" cy="8" r="7" stroke="currentColor" strokeWidth="1.5" />
+      <circle cx="8" cy="8" r="3" stroke="currentColor" strokeWidth="1.5" fill="none" />
+    </svg>
+  ),
+  target: () => (
+    <svg viewBox="0 0 16 16" className="w-4 h-4" fill="none">
+      <circle cx="8" cy="8" r="7" stroke="currentColor" strokeWidth="1.5" />
+      <circle cx="8" cy="8" r="4" stroke="currentColor" strokeWidth="1" fill="none" />
+      <circle cx="8" cy="8" r="1.5" fill="currentColor" />
+    </svg>
+  ),
+  pending: () => (
+    <span className="text-sm font-mono leading-none select-none">—</span>
+  ),
+  unknown: () => (
+    <span className="text-sm font-mono leading-none select-none">?</span>
+  ),
+}
+
+export default function StatusBadge({ status, date }) {
+  const styles = STATUS_STYLES[status] || STATUS_STYLES.unknown
+  const Icon = ICONS[status] || ICONS.unknown
+
+  return (
+    <div className="flex flex-col items-center gap-0.5">
+      <div className={`flex items-center justify-center w-7 h-7 rounded-full border ${styles.border} ${styles.bg} ${styles.text}`}>
+        <Icon />
+      </div>
+      {date && (
+        <span className="text-[9px] font-mono text-zinc-500 leading-none whitespace-nowrap">
+          {date}
+        </span>
+      )}
+    </div>
+  )
+}
