@@ -40,24 +40,25 @@ export async function scanCompany(reactor) {
 
   const hasLiveData = searchResults.length > 0
   const searchBlock = hasLiveData
-    ? `Live search results (use these as your primary source):\n${JSON.stringify(searchResults, null, 2)}\n\n`
-    : `No live search results available (Brave API not configured).\n\n`
+    ? `Live search results (use as primary source):\n${JSON.stringify(searchResults, null, 2)}\n\n`
+    : `No live search feed available. Use your training knowledge about this company.\n\n`
 
   const prompt = `You are a nuclear industry analyst generating a structured intelligence briefing for ${reactor.company}, developer of the ${reactor.reactor} microreactor at ${reactor.site}.
 
 ${searchBlock}Current milestone status: ${milestoneStr(reactor.milestones)}
+Today's date context: mid-2026, under U.S. Executive Order 14301 (federal reactor pilot program, July 4 2026 criticality deadline).
 
-TASK: Return a JSON object categorising news and intelligence into the sections below. Follow all rules exactly.
+TASK: Return a JSON object with categorised intelligence for each section. Draw on your training knowledge about this company — funding history, regulatory filings, partnerships, public announcements, and development milestones. Be specific and factual; do not fabricate events you have no basis for.
 
 SECTIONS:
-- latestNews: Most recent general developments (last 30 days)
+- latestNews: Most significant recent general developments
 - funding: Investment rounds, DOE grants, government contracts, equity raises
 - projectAnnouncements: Site selections, partnerships, reactor design updates, new programs
 - approvals: NRC regulatory approvals, license decisions, safety certifications
 - criticality: Progress toward first criticality, ZPC/FTPC/150H milestones
-- permits: Construction permits, design approvals (NSDA/PDSA/FDSA submissions or grants)
+- permits: Design or construction permits — NSDA/PDSA/FDSA submissions and grants
 
-MILESTONE KEYS (only include in milestoneUpdates if search results provide clear evidence):
+MILESTONE KEYS — only include in milestoneUpdates if you have clear evidence of a change from the current status above:
 NSDA, PDSA, FDSA, ZPC, FTPC, 150H
 Status values: approved | in_review | pre_app | target | pending | unknown
 
@@ -65,7 +66,7 @@ OUTPUT FORMAT — return ONLY valid JSON, no markdown fences, no explanation:
 {
   "sections": {
     "latestNews": [
-      { "id": "ln-1", "date": "YYYY-MM-DD", "headline": "...", "summary": "1-2 sentence summary", "source": "Publication Name", "url": "https://..." }
+      { "id": "ln-1", "date": "YYYY-MM-DD", "headline": "...", "summary": "1-2 sentence summary.", "source": "Publication Name", "url": "#" }
     ],
     "funding": [],
     "projectAnnouncements": [],
@@ -77,14 +78,13 @@ OUTPUT FORMAT — return ONLY valid JSON, no markdown fences, no explanation:
 }
 
 RULES:
-1. Each section: 0–5 items. Use [] if nothing found.
-2. milestoneUpdates: only include keys where search results show a status change. Use {} if no changes.
-3. date: use YYYY-MM-DD format. Use best estimate from search result age if exact date unavailable.
-4. source: realistic nuclear industry publication (World Nuclear News, NucNet, NEI Magazine, Power Magazine, Nuclear Engineering International, company press release, etc.)
-5. url: only include if from search results. Use "#" if unavailable.
-6. id: unique short string e.g. "ln-1", "f-1", "a-2"
-7. Do NOT fabricate specific funding amounts, dates, or approvals unless from search results.
-8. If no live data: return empty sections — do not invent news items.`
+1. Each section: 0–5 items. Use [] only if you genuinely have no information for that category.
+2. milestoneUpdates: only include keys where you have evidence of a status change. Use {} if none.
+3. date: YYYY-MM-DD. Estimate from known context if exact date unavailable (e.g. "2025-11-01").
+4. source: realistic nuclear industry publication — World Nuclear News, NucNet, NEI Magazine, Power Magazine, Nuclear Engineering International, company press release, DOE announcement, NRC docket, etc.
+5. url: use "#" unless you have a real URL from search results.
+6. id: unique short string e.g. "ln-1", "f-1", "a-2".
+7. Do NOT fabricate specific dollar amounts, named individuals, or NRC docket numbers unless you are confident they are accurate.`
 
   const response = await client.messages.create({
     model: 'claude-sonnet-4-6',

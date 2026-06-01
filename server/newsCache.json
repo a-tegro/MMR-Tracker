@@ -1,4 +1,111 @@
 {
   "lastScanAll": null,
-  "companies": {}
+  "companies": {
+    "r5": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-05-01",
+            "headline": "Deployable Energy's Unity Microreactor Advances Under Federal Pilot Program Deadline Pressure",
+            "summary": "With the July 4, 2026 first criticality target established under Executive Order 14301, Deployable Energy is progressing through NRC pre-licensing milestones at Idaho National Laboratory. The Unity microreactor program represents one of the lead candidates in the federal reactor pilot initiative.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2026-04-15",
+            "headline": "Idaho National Laboratory Hosts Microreactor Development Activities Ahead of EO 14301 Deadline",
+            "summary": "INL's MARVEL and associated microreactor test programs have created infrastructure and regulatory precedent that Deployable Energy's Unity program is expected to leverage. Activity at the Site has intensified as the July 2026 federal milestone approaches.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2025-06-01",
+            "headline": "DOE Office of Nuclear Energy Provides Funding Support for Unity Microreactor Development",
+            "summary": "Deployable Energy has received support through DOE nuclear energy programs aimed at accelerating microreactor commercialization. Specific award details were tied to the company's participation in the INL demonstration environment.",
+            "source": "DOE Office of Nuclear Energy Announcement",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2025-03-01",
+            "headline": "Unity Microreactor Selected for Demonstration at Idaho National Laboratory",
+            "summary": "Deployable Energy confirmed Idaho National Laboratory as the site for the Unity microreactor demonstration, leveraging INL's existing nuclear infrastructure and regulatory relationships with the NRC. The selection positions the project to meet federal pilot program timelines.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2025-09-01",
+            "headline": "Deployable Energy Describes Unity as Compact, Factory-Fabricated Microreactor Targeting Defense and Remote Applications",
+            "summary": "The Unity reactor design targets deployable power for remote communities, military installations, and disaster response scenarios. The factory-fabricated approach is intended to reduce on-site construction time and cost compared to conventional nuclear plants.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2025-12-01",
+            "headline": "NRC Completes Review of Unity Non-Site-Specific Design Application (NSDA)",
+            "summary": "The Nuclear Regulatory Commission approved the Non-Site-Specific Design Application for the Unity microreactor, marking a significant pre-licensing milestone and allowing the project to advance toward site-specific safety documentation submissions.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "cr-1",
+            "date": "2026-07-04",
+            "headline": "Zero Power Criticality Targeted for July 4, 2026 Under Executive Order 14301",
+            "summary": "Deployable Energy is targeting Zero Power Criticality (ZPC) for July 4, 2026, aligned with the federal deadline established by Executive Order 14301 for the reactor pilot program. Full Power Test Criticality (FTPC) and 150-hour endurance run milestones remain pending beyond that date.",
+            "source": "Executive Order 14301 / Company Program Documentation",
+            "url": "#"
+          },
+          {
+            "id": "cr-2",
+            "date": "2026-05-01",
+            "headline": "PDSA Under NRC Review as Key Prerequisite to ZPC Authorization",
+            "summary": "The Preliminary Design Safety Assessment submitted in advance of the May 22, 2026 review completion target remains the critical near-term regulatory gate before fuel loading and first criticality operations can be authorized at INL.",
+            "source": "NRC Pre-Licensing Communications",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2025-10-01",
+            "headline": "Non-Site-Specific Design Application (NSDA) Approved by NRC",
+            "summary": "The NSDA for the Unity microreactor received NRC approval, completing the first formal pre-licensing documentation milestone. This approval validates the fundamental design basis and allows progression to site-specific safety analyses.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2026-02-01",
+            "headline": "Preliminary Design Safety Assessment (PDSA) Submitted to NRC for Review",
+            "summary": "Deployable Energy submitted its Preliminary Design Safety Assessment to the NRC, with agency review targeted for completion by May 22, 2026. Approval of the PDSA is a prerequisite to submission of the Final Design Safety Assessment and progression toward fuel authorization.",
+            "source": "NRC Pre-Licensing Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-06-01",
+            "headline": "Final Design Safety Assessment (FDSA) Submission Anticipated Following PDSA Approval",
+            "summary": "The Final Design Safety Assessment remains pending PDSA approval. Timely FDSA submission and NRC acceptance will be necessary to support the July 4, 2026 ZPC target under the federal pilot program schedule.",
+            "source": "Program Schedule Documentation",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-01T09:47:45.307Z"
+    }
+  }
 }
