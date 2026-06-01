@@ -1,14 +1,18 @@
-import 'dotenv/config'
+import { config as dotenvConfig } from 'dotenv'
+import { fileURLToPath } from 'url'
+import { dirname, join } from 'path'
+
+// Load .env from project root regardless of where node is invoked from
+const __serverDir = dirname(fileURLToPath(import.meta.url))
+dotenvConfig({ path: join(__serverDir, '..', '.env') })
+
 import express from 'express'
 import cors from 'cors'
 import { readFileSync, writeFileSync, existsSync } from 'fs'
-import { fileURLToPath } from 'url'
-import { dirname, join } from 'path'
 import { scanCompany } from './scanner.js'
 import { startScheduler } from './scheduler.js'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-export const CACHE_FILE = join(__dirname, 'newsCache.json')
+export const CACHE_FILE = join(__serverDir, 'newsCache.json')
 
 export function loadCache() {
   if (!existsSync(CACHE_FILE)) {

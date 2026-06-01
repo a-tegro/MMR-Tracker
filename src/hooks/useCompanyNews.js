@@ -1,10 +1,18 @@
 import { useState, useEffect, useCallback } from 'react'
 
-function getCompanyKey(reactor) {
+export function getCompanyKey(reactor) {
   return `r${reactor.rank}`
 }
 
-export { getCompanyKey }
+const SERVER_DOWN_MSG = 'API server is not running. Open a terminal in the project folder and run: npm run dev'
+
+async function safeJson(res) {
+  const ct = res.headers.get('content-type') || ''
+  if (!ct.includes('application/json')) {
+    throw new Error(SERVER_DOWN_MSG)
+  }
+  return res.json()
+}
 
 export function useCompanyNews(reactor) {
   const [data, setData] = useState(null)
@@ -19,11 +27,14 @@ export function useCompanyNews(reactor) {
     setError(null)
     try {
       const res = await fetch(`/api/news/${companyKey}`)
-      if (!res.ok) throw new Error(`HTTP ${res.status}`)
-      const json = await res.json()
+      const json = await safeJson(res)
+      if (!res.ok) throw new Error(json?.error || `HTTP ${res.status}`)
       setData(json)
-    } catch {
-      setError('API server not reachable. Start the server with npm run dev.')
+    } catch (err) {
+      const msg = err.message.includes('fetch') || err.message.includes('NetworkError')
+        ? SERVER_DOWN_MSG
+        : err.message
+      setError(msg)
     } finally {
       setLoading(false)
     }
@@ -38,11 +49,14 @@ export function useCompanyNews(reactor) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ reactor }),
       })
-      const json = await res.json()
-      if (!res.ok) throw new Error(json.error || `HTTP ${res.status}`)
+      const json = await safeJson(res)
+      if (!res.ok) throw new Error(json?.error || `HTTP ${res.status}`)
       setData(json)
     } catch (err) {
-      setError(err.message)
+      const msg = err.message.includes('fetch') || err.message.includes('NetworkError')
+        ? SERVER_DOWN_MSG
+        : err.message
+      setError(msg)
     } finally {
       setScanning(false)
     }
