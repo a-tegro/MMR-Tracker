@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/scan/[companyKey].js": { "maxDuration": 60 },
+    "api/cron/scan-all.js": { "maxDuration": 300 }
+  },
+  "crons": [
+    { "path": "/api/cron/scan-all", "schedule": "0 2 * * 0" }
+  ]
+}
