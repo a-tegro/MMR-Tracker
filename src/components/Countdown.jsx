@@ -20,10 +20,10 @@ function getTimeLeft() {
 function Unit({ value, label }) {
   return (
     <div className="flex flex-col items-center">
-      <div className="font-mono text-4xl sm:text-5xl font-bold text-white tabular-nums tracking-tight">
+      <div className="font-mono text-4xl sm:text-5xl font-bold text-brand-text tabular-nums tracking-tight">
         {pad(value)}
       </div>
-      <div className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 mt-1">
+      <div className="text-[10px] font-mono uppercase tracking-widest text-brand-text-muted mt-1">
         {label}
       </div>
     </div>
@@ -57,7 +57,7 @@ export default function Countdown() {
       </div>
       <div className="flex items-center gap-2">
         <div className="w-2 h-2 rounded-full bg-brand-teal animate-pulse" />
-        <span className="font-mono text-xs text-zinc-400 uppercase tracking-widest">
+        <span className="font-mono text-xs text-brand-text-muted uppercase tracking-widest">
           T–{totalDays} days to July 4, 2026
         </span>
       </div>

@@ -5,12 +5,12 @@ import TegroLogo from './components/TegroLogo'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-brand-dark text-white">
+    <div className="min-h-screen bg-brand-dark text-brand-text">
       {/* Top bar */}
       <div className="border-b border-brand-border bg-brand-surface/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
           <TegroLogo />
-          <span className="font-mono text-[10px] uppercase tracking-widest text-brand-muted hidden sm:block">
+          <span className="font-mono text-[10px] uppercase tracking-widest text-brand-text-muted hidden sm:block">
             Executive Order 14301 · Pilot Program Tracker
           </span>
         </div>
@@ -21,21 +21,21 @@ export default function App() {
         {/* Hero */}
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-8">
           <div>
-            <h1 className="font-mono font-bold leading-none">
-              <span className="text-5xl sm:text-7xl text-white block">RACE TO</span>
-              <span className="text-5xl sm:text-7xl text-brand-teal block">CRITICALITY</span>
+            <h1 className="font-sans font-bold leading-none">
+              <span className="text-5xl sm:text-7xl text-brand-text block tracking-tight">RACE TO</span>
+              <span className="text-5xl sm:text-7xl text-brand-teal block tracking-tight">CRITICALITY</span>
             </h1>
-            <p className="text-zinc-400 text-sm mt-4 max-w-lg leading-relaxed">
+            <p className="text-brand-text-dim text-sm mt-4 max-w-lg leading-relaxed">
               Twelve advanced reactor designs from U.S. nuclear startups racing toward
               zero-power criticality and continuous operation under the federal reactor
               pilot program.
             </p>
             <div className="flex items-center gap-2 mt-3">
-              <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-              <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">
+              <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+              <span className="font-mono text-[10px] uppercase tracking-widest text-brand-text-muted">
                 Live Tracker
               </span>
-              <span className="font-mono text-[10px] text-zinc-600 ml-2">
+              <span className="font-mono text-[10px] text-brand-muted ml-2">
                 {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).toUpperCase()}
               </span>
             </div>
@@ -50,15 +50,15 @@ export default function App() {
         {/* Deadline banner */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 rounded-lg border border-brand-border bg-brand-surface px-5 py-4">
           <div className="shrink-0">
-            <div className="font-mono text-[9px] uppercase tracking-widest text-zinc-500 mb-1">
+            <div className="font-mono text-[9px] uppercase tracking-widest text-brand-text-muted mb-1">
               Criticality Deadline
             </div>
-            <div className="font-mono font-bold text-white text-xl tracking-wide">
+            <div className="font-sans font-bold text-brand-text text-xl tracking-wide">
               JULY 4 · 2026
             </div>
           </div>
           <div className="h-10 w-px bg-brand-border hidden sm:block mx-4" />
-          <p className="text-[11px] font-mono uppercase tracking-wide text-zinc-400 leading-relaxed">
+          <p className="text-[11px] font-mono uppercase tracking-wide text-brand-text-dim leading-relaxed">
             Per Executive Order 14301 — All pilot reactors to achieve first criticality by
             U.S. 250th birthday
           </p>
@@ -73,12 +73,12 @@ export default function App() {
         {/* Tracker table */}
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <div className="font-mono text-[10px] uppercase tracking-widest text-zinc-500">
+            <div className="font-mono text-[10px] uppercase tracking-widest text-brand-text-muted">
               All Reactors
             </div>
             <div className="h-px flex-1 bg-brand-border" />
-            <div className="font-mono text-[10px] text-zinc-600">
-              {12} reactors tracking
+            <div className="font-mono text-[10px] text-brand-muted">
+              12 reactors tracking
             </div>
           </div>
           <TrackerTable />
@@ -93,14 +93,14 @@ export default function App() {
         <div className="border-t border-brand-border pt-6 flex flex-col sm:flex-row justify-between gap-2">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-brand-teal" />
-            <span className="font-mono text-[10px] uppercase tracking-widest text-zinc-600">
+            <span className="font-mono text-[10px] uppercase tracking-widest text-brand-text-muted">
               This Week in Nuclear
             </span>
           </div>
-          <div className="font-mono text-[10px] text-zinc-700 uppercase tracking-widest">
+          <div className="font-mono text-[10px] text-brand-muted uppercase tracking-widest">
             Source · Master Program Spreadsheet (v3.0)
           </div>
-          <div className="font-mono text-[10px] text-zinc-700">
+          <div className="font-mono text-[10px] text-brand-muted">
             · 12 Reactors Tracking
           </div>
         </div>

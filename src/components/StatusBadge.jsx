@@ -51,7 +51,7 @@ export default function StatusBadge({ status, date }) {
         <Icon />
       </div>
       {date && (
-        <span className="text-[9px] font-mono text-zinc-500 leading-none whitespace-nowrap">
+        <span className="text-[9px] font-mono text-brand-text-muted leading-none whitespace-nowrap">
           {date}
         </span>
       )}
