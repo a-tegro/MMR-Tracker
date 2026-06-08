@@ -2,6 +2,7 @@ import { useState, Fragment } from 'react'
 import { reactors, MILESTONES } from '../data/reactors'
 import StatusBadge from './StatusBadge'
 import CompanyPanel from './CompanyPanel'
+import { useMilestoneUpdates } from '../hooks/useMilestoneUpdates'
 
 const COL_COUNT = 3 + MILESTONES.length // rank + company + site + 6 milestones
 
@@ -21,9 +22,20 @@ function ChevronIcon({ open }) {
 
 export default function TrackerTable() {
   const [expandedRank, setExpandedRank] = useState(null)
+  const milestoneUpdates = useMilestoneUpdates()
 
   function toggle(rank) {
     setExpandedRank(prev => (prev === rank ? null : rank))
+  }
+
+  // Merge scan-detected updates over the static milestone data for a given reactor
+  function getMilestone(reactor, milestoneKey) {
+    const companyKey = `r${reactor.rank}`
+    const override = milestoneUpdates[companyKey]?.[milestoneKey]
+    if (override) {
+      return { ...reactor.milestones[milestoneKey], ...override, scanUpdated: true }
+    }
+    return reactor.milestones[milestoneKey]
   }
 
   return (
@@ -101,14 +113,21 @@ export default function TrackerTable() {
                     )}
                   </td>
 
-                  {/* Milestones */}
-                  {MILESTONES.map(m => (
-                    <td key={m} className="px-2 py-3 text-center">
-                      <div className="flex justify-center">
-                        <StatusBadge status={r.milestones[m].status} date={r.milestones[m].date} />
-                      </div>
-                    </td>
-                  ))}
+                  {/* Milestones — static data overlaid with any scan-detected updates */}
+                  {MILESTONES.map(m => {
+                    const milestone = getMilestone(r, m)
+                    return (
+                      <td key={m} className="px-2 py-3 text-center">
+                        <div className="flex justify-center">
+                          <StatusBadge
+                            status={milestone.status}
+                            date={milestone.date}
+                            scanUpdated={!!milestone.scanUpdated}
+                          />
+                        </div>
+                      </td>
+                    )
+                  })}
                 </tr>
 
                 {/* Expandable panel */}

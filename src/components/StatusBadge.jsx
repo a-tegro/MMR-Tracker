@@ -41,14 +41,23 @@ const ICONS = {
   ),
 }
 
-export default function StatusBadge({ status, date }) {
+export default function StatusBadge({ status, date, scanUpdated = false }) {
   const styles = STATUS_STYLES[status] || STATUS_STYLES.unknown
   const Icon = ICONS[status] || ICONS.unknown
 
   return (
     <div className="flex flex-col items-center gap-0.5">
-      <div className={`flex items-center justify-center w-7 h-7 rounded-full border ${styles.border} ${styles.bg} ${styles.text}`}>
-        <Icon />
+      <div className="relative">
+        <div className={`flex items-center justify-center w-7 h-7 rounded-full border ${styles.border} ${styles.bg} ${styles.text}`}>
+          <Icon />
+        </div>
+        {/* Scan-detected update indicator — small teal dot in the top-right corner */}
+        {scanUpdated && (
+          <span
+            className="absolute -top-0.5 -right-0.5 w-2 h-2 rounded-full bg-brand-teal border border-brand-dark"
+            title="Updated by weekly market scan"
+          />
+        )}
       </div>
       {date && (
         <span className="text-[9px] font-mono text-brand-text-muted leading-none whitespace-nowrap">
