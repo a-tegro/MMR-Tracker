@@ -1,5 +1,7 @@
 import { scanCompany } from '../../server/scanner.js'
 import { loadCache, saveCache } from '../../lib/cache.js'
+import { loadSubscribers } from '../../lib/subscribers.js'
+import { sendMilestoneAlert } from '../../lib/email.js'
 import { reactors } from '../../src/data/reactors.js'
 
 export default async function handler(req, res) {
@@ -29,6 +31,16 @@ export default async function handler(req, res) {
       cache.companies[key] = { ...result, lastScan: new Date().toISOString() }
       await saveCache(cache)
       results.scanned++
+
+      // Send email alerts if any milestones changed
+      if (Object.keys(result.milestoneUpdates ?? {}).length > 0) {
+        try {
+          const subscribers = await loadSubscribers()
+          await sendMilestoneAlert(subscribers, reactor, result.milestoneUpdates)
+        } catch (emailErr) {
+          console.error(`[CronScan] Email alert failed for ${reactor.company}:`, emailErr.message)
+        }
+      }
     } catch (err) {
       console.error(`[CronScan] Error scanning ${reactor.company}:`, err.message)
       results.errors.push({ company: reactor.company, error: err.message })

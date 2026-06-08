@@ -2,6 +2,7 @@ import Countdown from './components/Countdown'
 import TrackerTable from './components/TrackerTable'
 import MilestoneLegend from './components/MilestoneLegend'
 import TegroLogo from './components/TegroLogo'
+import EmailSignup from './components/EmailSignup'
 
 export default function App() {
   return (
@@ -10,9 +11,7 @@ export default function App() {
       <div className="border-b border-brand-border bg-brand-surface/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
           <TegroLogo />
-          <span className="font-mono text-[10px] uppercase tracking-widest text-brand-text-muted hidden sm:block">
-            Executive Order 14301 · Pilot Program Tracker
-          </span>
+          <EmailSignup />
         </div>
       </div>
 
