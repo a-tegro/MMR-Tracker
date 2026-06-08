@@ -18,9 +18,9 @@ export default async function handler(req, res) {
 
   try {
     const result = await scanCompany(reactor)
-    const cache = loadCache()
+    const cache = await loadCache()
     cache.companies[companyKey] = { ...result, lastScan: new Date().toISOString() }
-    saveCache(cache)
+    await saveCache(cache)
     res.json(cache.companies[companyKey])
   } catch (err) {
     console.error('[Scan] Error:', err.message)

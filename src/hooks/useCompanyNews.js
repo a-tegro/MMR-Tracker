@@ -17,7 +17,6 @@ async function safeJson(res) {
 export function useCompanyNews(reactor) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
-  const [scanning, setScanning] = useState(false)
   const [error, setError] = useState(null)
 
   const companyKey = getCompanyKey(reactor)
@@ -40,31 +39,9 @@ export function useCompanyNews(reactor) {
     }
   }, [companyKey])
 
-  const triggerScan = useCallback(async () => {
-    setScanning(true)
-    setError(null)
-    try {
-      const res = await fetch(`/api/scan/${companyKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ reactor }),
-      })
-      const json = await safeJson(res)
-      if (!res.ok) throw new Error(json?.error || `HTTP ${res.status}`)
-      setData(json)
-    } catch (err) {
-      const msg = err.message.includes('fetch') || err.message.includes('NetworkError')
-        ? SERVER_DOWN_MSG
-        : err.message
-      setError(msg)
-    } finally {
-      setScanning(false)
-    }
-  }, [companyKey, reactor])
-
   useEffect(() => {
     fetchCached()
   }, [fetchCached])
 
-  return { data, loading, scanning, error, triggerScan, refetch: fetchCached, companyKey }
+  return { data, loading, error, companyKey }
 }

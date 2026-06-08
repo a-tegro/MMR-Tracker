@@ -18,7 +18,17 @@ function formatDate(iso) {
   })
 }
 
-function ScanSpinner() {
+function nextSundayDate() {
+  const now = new Date()
+  const day = now.getUTCDay() // 0 = Sunday
+  const daysUntil = day === 0 ? 7 : 7 - day
+  const next = new Date(now)
+  next.setUTCDate(now.getUTCDate() + daysUntil)
+  next.setUTCHours(2, 0, 0, 0)
+  return next.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+}
+
+function Spinner() {
   return (
     <span className="inline-block w-3 h-3 border border-current border-t-transparent rounded-full animate-spin" />
   )
@@ -40,7 +50,7 @@ function MilestoneUpdateBadge({ updates }) {
 
 export default function CompanyPanel({ reactor, colSpan }) {
   const [activeTab, setActiveTab] = useState('latestNews')
-  const { data, loading, scanning, error, triggerScan } = useCompanyNews(reactor)
+  const { data, loading, error } = useCompanyNews(reactor)
 
   const sections = data?.sections ?? {}
   const milestoneUpdates = data?.milestoneUpdates ?? {}
@@ -66,19 +76,16 @@ export default function CompanyPanel({ reactor, colSpan }) {
                 </p>
               </div>
 
-              <div className="flex items-center gap-3 shrink-0">
-                {data?.lastScan && (
+              {/* Scan cadence info */}
+              <div className="flex flex-col items-end gap-0.5 shrink-0">
+                {data?.lastScan ? (
                   <span className="font-mono text-[10px] text-brand-muted">
-                    Last scan: {formatDate(data.lastScan)}
+                    Updated {formatDate(data.lastScan)}
                   </span>
-                )}
-                <button
-                  onClick={triggerScan}
-                  disabled={scanning || loading}
-                  className="flex items-center gap-2 px-3 py-1.5 text-[11px] font-mono uppercase tracking-widest rounded border border-brand-teal text-brand-teal hover:bg-brand-teal/10 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
-                >
-                  {scanning ? <><ScanSpinner /> Scanning…</> : 'Run Scan'}
-                </button>
+                ) : null}
+                <span className="font-mono text-[10px] text-brand-muted/60">
+                  Auto-scan · Next {nextSundayDate()}
+                </span>
               </div>
             </div>
 
@@ -122,57 +129,45 @@ export default function CompanyPanel({ reactor, colSpan }) {
             {/* Content area */}
             <div className="min-h-[100px]">
 
-              {/* Loading state */}
               {loading && (
                 <div className="flex items-center gap-3 py-10 text-brand-muted">
-                  <ScanSpinner />
-                  <span className="font-mono text-xs uppercase tracking-widest">Loading cached data…</span>
+                  <Spinner />
+                  <span className="font-mono text-xs uppercase tracking-widest">Loading…</span>
                 </div>
               )}
 
-              {/* Scanning state */}
-              {scanning && !loading && (
-                <div className="flex items-center gap-3 py-10 text-brand-teal">
-                  <ScanSpinner />
-                  <span className="font-mono text-xs uppercase tracking-widest">
-                    Running market scan — this may take 15–30 seconds…
-                  </span>
-                </div>
-              )}
-
-              {/* Error state */}
-              {!loading && !scanning && error && (
+              {!loading && error && (
                 <div className="py-6 px-3">
                   <p className="font-mono text-xs text-amber-400">{error}</p>
                 </div>
               )}
 
-              {/* No data state */}
-              {!loading && !scanning && !error && data === null && (
-                <div className="py-8 text-center">
+              {!loading && !error && data === null && (
+                <div className="py-10 text-center space-y-2">
                   <p className="font-mono text-xs uppercase tracking-widest text-brand-muted">
-                    No scan data yet
+                    Awaiting first scan
                   </p>
-                  <p className="text-xs text-brand-text-muted mt-2">
-                    Click <strong className="text-brand-teal">Run Scan</strong> to fetch the latest intelligence on this company
+                  <p className="text-xs text-brand-text-muted">
+                    Market intelligence is gathered automatically each week.
+                  </p>
+                  <p className="font-mono text-[10px] text-brand-muted/60">
+                    Next run: Sunday {nextSundayDate()} · 02:00 UTC
                   </p>
                 </div>
               )}
 
-              {/* Empty tab */}
-              {!loading && !scanning && !error && data !== null && activeItems.length === 0 && (
-                <div className="py-8 text-center">
+              {!loading && !error && data !== null && activeItems.length === 0 && (
+                <div className="py-8 text-center space-y-1">
                   <p className="font-mono text-xs uppercase tracking-widest text-brand-muted">
                     No items in this category
                   </p>
-                  <p className="text-xs text-brand-text-muted mt-1">
-                    Run a new scan to check for recent updates
+                  <p className="text-xs text-brand-text-muted">
+                    Will update at next weekly scan
                   </p>
                 </div>
               )}
 
-              {/* News items */}
-              {!loading && !scanning && !error && activeItems.length > 0 && (
+              {!loading && !error && activeItems.length > 0 && (
                 <div className="space-y-1">
                   {activeItems.map(item => (
                     <NewsItem key={item.id} item={item} />

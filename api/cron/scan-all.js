@@ -8,7 +8,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  // Protect from unauthorized calls when not invoked by Vercel Cron
+  // Protect from unauthorized calls
   const authHeader = req.headers.authorization
   if (process.env.CRON_SECRET && authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
     return res.status(401).json({ error: 'Unauthorized' })
@@ -18,18 +18,17 @@ export default async function handler(req, res) {
     return res.status(503).json({ error: 'ANTHROPIC_API_KEY not configured' })
   }
 
-  const cache = loadCache()
+  const cache = await loadCache()
   const results = { scanned: 0, errors: [] }
 
   for (const reactor of reactors) {
     const key = `r${reactor.rank}`
     try {
+      console.log(`[CronScan] Scanning ${reactor.company} (${key})...`)
       const result = await scanCompany(reactor)
       cache.companies[key] = { ...result, lastScan: new Date().toISOString() }
-      saveCache(cache)
+      await saveCache(cache)
       results.scanned++
-      // Throttle between API calls
-      await new Promise(r => setTimeout(r, 3000))
     } catch (err) {
       console.error(`[CronScan] Error scanning ${reactor.company}:`, err.message)
       results.errors.push({ company: reactor.company, error: err.message })
@@ -37,7 +36,7 @@ export default async function handler(req, res) {
   }
 
   cache.lastScanAll = new Date().toISOString()
-  saveCache(cache)
+  await saveCache(cache)
 
   res.json({ ok: true, ...results, completedAt: cache.lastScanAll })
 }
