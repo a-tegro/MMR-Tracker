@@ -2,6 +2,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "functions": {
+    "api/**/*.js": { "includeFiles": "server/newsCache.json" },
     "api/scan/[companyKey].js": { "maxDuration": 60 },
     "api/cron/scan-all.js": { "maxDuration": 300 }
   },
