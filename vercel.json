@@ -2,9 +2,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "functions": {
-    "api/**/*.js": { "includeFiles": "server/newsCache.json" },
-    "api/scan/[companyKey].js": { "maxDuration": 60 },
-    "api/cron/scan-all.js": { "maxDuration": 300 }
+    "api/scan/*.js":      { "maxDuration": 60,  "includeFiles": "server/newsCache.json" },
+    "api/cron/*.js":      { "maxDuration": 300, "includeFiles": "server/newsCache.json" },
+    "api/news/*.js":      { "includeFiles": "server/newsCache.json" },
+    "api/milestones/*.js":{ "includeFiles": "server/newsCache.json" },
+    "api/status.js":      { "includeFiles": "server/newsCache.json" }
   },
   "crons": [
     { "path": "/api/cron/scan-all", "schedule": "0 2 * * 0" }
