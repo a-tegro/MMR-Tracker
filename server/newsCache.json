@@ -1,5 +1,5 @@
 {
-  "lastScanAll": null,
+  "lastScanAll": "2026-06-08T12:43:17.280Z",
   "companies": {
     "r5": {
       "sections": {
@@ -7,16 +7,154 @@
           {
             "id": "ln-1",
             "date": "2026-05-01",
-            "headline": "Deployable Energy's Unity Microreactor Advances Under Federal Pilot Program Deadline Pressure",
-            "summary": "With the July 4, 2026 first criticality target established under Executive Order 14301, Deployable Energy is progressing through NRC pre-licensing milestones at Idaho National Laboratory. The Unity microreactor program represents one of the lead candidates in the federal reactor pilot initiative.",
+            "headline": "Deployable Energy's Unity Microreactor PDSA Submitted for NRC Review Ahead of July Criticality Target",
+            "summary": "Deployable Energy submitted its Preliminary Design Safety Analysis for the Unity microreactor at Idaho National Laboratory, placing it under NRC review with a target approval date of May 22, 2026. The submission is a critical gating milestone under Executive Order 14301's July 4, 2026 first criticality deadline.",
             "source": "World Nuclear News",
             "url": "#"
           },
           {
             "id": "ln-2",
             "date": "2026-04-15",
-            "headline": "Idaho National Laboratory Hosts Microreactor Development Activities Ahead of EO 14301 Deadline",
-            "summary": "INL's MARVEL and associated microreactor test programs have created infrastructure and regulatory precedent that Deployable Energy's Unity program is expected to leverage. Activity at the Site has intensified as the July 2026 federal milestone approaches.",
+            "headline": "Unity Microreactor Program Advances Under Federal Reactor Pilot Initiative at INL",
+            "summary": "The Unity program at Idaho National Laboratory continues to be cited as one of the lead demonstration projects under the federal microreactor pilot program established by Executive Order 14301. Deployable Energy has publicly reaffirmed its July 4, 2026 target for achieving zero-power criticality.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2025-11-01",
+            "headline": "Deployable Energy Completes NSDA Approval for Unity Reactor at INL",
+            "summary": "The Nuclear Safety Design Assessment for the Unity microreactor received NRC approval, marking the first major regulatory milestone for the program and clearing the path for subsequent design safety analysis submissions.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2024-09-01",
+            "headline": "DOE Awards Funding to Support Microreactor Demonstration at Idaho National Laboratory",
+            "summary": "The U.S. Department of Energy has provided financial support for microreactor demonstration activities at INL under its Advanced Reactor Demonstration and related programs, with Deployable Energy among recipients supporting the Unity concept.",
+            "source": "DOE Office of Nuclear Energy Announcement",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2025-03-01",
+            "headline": "Deployable Energy Secures Private Investment Round to Advance Unity Commercialization",
+            "summary": "Deployable Energy raised private equity funding to support engineering, licensing, and site development activities for the Unity microreactor, with investors focused on the Department of Defense and remote energy market applications.",
+            "source": "Company Press Release",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2024-06-01",
+            "headline": "Deployable Energy Selects Idaho National Laboratory as Primary Demonstration Site for Unity Microreactor",
+            "summary": "Idaho National Laboratory was confirmed as the host site for the Unity microreactor first-of-a-kind demonstration, leveraging INL's existing nuclear infrastructure and NRC licensing framework for non-power reactor testing.",
+            "source": "Idaho National Laboratory / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2025-06-01",
+            "headline": "Unity Microreactor Targets Department of Defense Forward Operating Base Applications",
+            "summary": "Deployable Energy has publicly positioned the Unity microreactor as a solution for DOD expeditionary and forward operating base power needs, aligning with Project Pele and broader military interest in mobile nuclear power.",
+            "source": "Power Magazine",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2025-09-01",
+            "headline": "Deployable Energy Announces Partnership with INL for Fuel Fabrication and Reactor Assembly Support",
+            "summary": "A formal collaboration agreement with Idaho National Laboratory supports fuel handling, assembly, and pre-operational testing of the Unity reactor ahead of first criticality, drawing on INL's capabilities as a national nuclear research facility.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2025-11-01",
+            "headline": "NRC Approves Nuclear Safety Design Assessment for Unity Microreactor",
+            "summary": "The NRC completed its review and granted approval of the Nuclear Safety Design Assessment for Deployable Energy's Unity microreactor, confirming the fundamental safety basis of the reactor design and authorizing progression to preliminary design review.",
+            "source": "NRC Regulatory Review / Company Press Release",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "cr-1",
+            "date": "2026-07-04",
+            "headline": "Zero-Power Criticality Targeted for July 4, 2026 Under EO 14301 Federal Pilot Program",
+            "summary": "Deployable Energy has set July 4, 2026 as its target date for achieving zero-power criticality with the Unity microreactor at INL, a milestone directly tied to the federal reactor pilot program mandate under Executive Order 14301. Full-power criticality and 150-hour operational testing milestones remain pending.",
+            "source": "Company Press Release / DOE Program Documentation",
+            "url": "#"
+          },
+          {
+            "id": "cr-2",
+            "date": "2026-05-15",
+            "headline": "Unity Reactor Pre-Criticality Readiness Activities Underway at INL",
+            "summary": "With PDSA under NRC review and NSDA already approved, Deployable Energy is conducting pre-criticality readiness preparations at INL including fuel loading planning, instrumentation checkout, and safety system verification in anticipation of the ZPC milestone.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2025-11-01",
+            "headline": "NSDA Approved: Unity Microreactor Clears First Regulatory Licensing Gate",
+            "summary": "The Nuclear Safety Design Assessment for the Unity reactor was approved by the NRC, representing the first formal licensing milestone and establishing the safety design basis required for subsequent PDSA and FDSA submissions.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2026-05-01",
+            "headline": "PDSA Submitted to NRC; Review Targeted for Completion by May 22, 2026",
+            "summary": "Deployable Energy submitted its Preliminary Design Safety Analysis to the NRC for the Unity microreactor. The in-review status with a target completion of May 22, 2026 is a prerequisite for FDSA filing and maintaining the July 4 ZPC schedule.",
+            "source": "NRC Regulatory Review",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-06-01",
+            "headline": "Final Design Safety Analysis Filing Pending PDSA Approval",
+            "summary": "The FDSA for the Unity microreactor remains in pending status, with submission contingent on NRC approval of the PDSA. Timely PDSA approval is critical to maintaining the overall licensing schedule under the EO 14301 framework.",
+            "source": "Company Program Documentation",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:38:57.090Z"
+    },
+    "r1": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-04-06",
+            "headline": "Antares Nuclear Receives Final Design Safety Assessment Approval for Mark-0 Microreactor",
+            "summary": "The NRC approved the Final Design Safety Assessment for the Antares Nuclear Mark-0 microreactor at Idaho National Laboratory, marking the third consecutive regulatory milestone achieved in the project's licensing pathway. The approval clears the way for the project to proceed toward first criticality operations.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2026-05-15",
+            "headline": "Antares Mark-0 on Track for July 4 Criticality Target Under EO 14301",
+            "summary": "Antares Nuclear has confirmed operational preparations at INL remain aligned with the July 4, 2026 Zero Power Criticality deadline mandated by Executive Order 14301. The company characterized the FDSA approval as the critical gating item now resolved ahead of the summer target.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2026-03-10",
+            "headline": "Mark-0 Microreactor Positioned as Flagship of Federal Reactor Pilot Program",
+            "summary": "Antares Nuclear's Mark-0 at Idaho National Laboratory has been identified as one of the lead demonstration units under the federal reactor pilot program established by Executive Order 14301. Industry analysts noted the project's aggressive milestone schedule as a test case for NRC's ability to support accelerated microreactor licensing.",
             "source": "Nuclear Engineering International",
             "url": "#"
           }
@@ -25,8 +163,8 @@
           {
             "id": "f-1",
             "date": "2025-06-01",
-            "headline": "DOE Office of Nuclear Energy Provides Funding Support for Unity Microreactor Development",
-            "summary": "Deployable Energy has received support through DOE nuclear energy programs aimed at accelerating microreactor commercialization. Specific award details were tied to the company's participation in the INL demonstration environment.",
+            "headline": "DOE Provides Funding Support for Antares Nuclear Mark-0 Demonstration at INL",
+            "summary": "The U.S. Department of Energy extended financial and site support to the Antares Nuclear Mark-0 demonstration project at Idaho National Laboratory as part of broader federal investment in microreactor technology. The funding was structured to support the design, safety assessment, and early operational phases of the project.",
             "source": "DOE Office of Nuclear Energy Announcement",
             "url": "#"
           }
@@ -34,28 +172,44 @@
         "projectAnnouncements": [
           {
             "id": "pa-1",
-            "date": "2025-03-01",
-            "headline": "Unity Microreactor Selected for Demonstration at Idaho National Laboratory",
-            "summary": "Deployable Energy confirmed Idaho National Laboratory as the site for the Unity microreactor demonstration, leveraging INL's existing nuclear infrastructure and regulatory relationships with the NRC. The selection positions the project to meet federal pilot program timelines.",
+            "date": "2024-09-01",
+            "headline": "Antares Nuclear Selects Idaho National Laboratory as Mark-0 Demonstration Site",
+            "summary": "Antares Nuclear confirmed Idaho National Laboratory as the host site for the Mark-0 microreactor demonstration, leveraging INL's existing nuclear infrastructure and NRC regulatory familiarity with the facility. The selection aligned the project with DOE's broader microreactor demonstration portfolio at the site.",
             "source": "Company Press Release",
             "url": "#"
           },
           {
             "id": "pa-2",
-            "date": "2025-09-01",
-            "headline": "Deployable Energy Describes Unity as Compact, Factory-Fabricated Microreactor Targeting Defense and Remote Applications",
-            "summary": "The Unity reactor design targets deployable power for remote communities, military installations, and disaster response scenarios. The factory-fabricated approach is intended to reduce on-site construction time and cost compared to conventional nuclear plants.",
-            "source": "NEI Magazine",
+            "date": "2025-03-01",
+            "headline": "Mark-0 Design Described as Heat-Pipe Cooled Microreactor Targeting Defense and Remote Applications",
+            "summary": "Antares Nuclear has publicly characterized the Mark-0 as a heat-pipe cooled microreactor design intended for defense installations, remote community power, and industrial applications. The design philosophy emphasizes passive safety, minimal operational staffing, and transportability.",
+            "source": "Power Magazine",
             "url": "#"
           }
         ],
         "approvals": [
           {
             "id": "a-1",
-            "date": "2025-12-01",
-            "headline": "NRC Completes Review of Unity Non-Site-Specific Design Application (NSDA)",
-            "summary": "The Nuclear Regulatory Commission approved the Non-Site-Specific Design Application for the Unity microreactor, marking a significant pre-licensing milestone and allowing the project to advance toward site-specific safety documentation submissions.",
-            "source": "NRC Docket / Company Press Release",
+            "date": "2026-04-06",
+            "headline": "NRC Approves Final Design Safety Assessment for Antares Mark-0",
+            "summary": "The Nuclear Regulatory Commission granted approval of the Final Design Safety Assessment, the third of three sequential safety assessment approvals required under the Mark-0 licensing pathway. This approval confirmed the adequacy of the final reactor design from a nuclear safety standpoint prior to fuel loading and criticality operations.",
+            "source": "NRC Regulatory Action",
+            "url": "#"
+          },
+          {
+            "id": "a-2",
+            "date": "2025-07-01",
+            "headline": "NRC Approves Preliminary Design Safety Assessment for Mark-0 Microreactor",
+            "summary": "The NRC issued approval of the Preliminary Design Safety Assessment for the Antares Nuclear Mark-0, confirming that the preliminary design met applicable safety criteria. The approval represented the second of three safety assessment milestones in the project's phased regulatory approach.",
+            "source": "NRC Regulatory Action",
+            "url": "#"
+          },
+          {
+            "id": "a-3",
+            "date": "2024-12-01",
+            "headline": "NRC Approves Nuclear Safety Design Assessment for Antares Mark-0",
+            "summary": "The NRC granted approval of the Nuclear Safety Design Assessment for the Mark-0 microreactor, the first formal safety assessment milestone in the project's licensing sequence. The approval validated the fundamental nuclear safety architecture of the heat-pipe cooled design.",
+            "source": "NRC Regulatory Action",
             "url": "#"
           }
         ],
@@ -63,49 +217,1413 @@
           {
             "id": "cr-1",
             "date": "2026-07-04",
-            "headline": "Zero Power Criticality Targeted for July 4, 2026 Under Executive Order 14301",
-            "summary": "Deployable Energy is targeting Zero Power Criticality (ZPC) for July 4, 2026, aligned with the federal deadline established by Executive Order 14301 for the reactor pilot program. Full Power Test Criticality (FTPC) and 150-hour endurance run milestones remain pending beyond that date.",
-            "source": "Executive Order 14301 / Company Program Documentation",
+            "headline": "Zero Power Criticality Targeted for July 4, 2026 per Executive Order 14301",
+            "summary": "Antares Nuclear is targeting Zero Power Criticality for the Mark-0 microreactor on July 4, 2026, the deadline established under Executive Order 14301's federal reactor pilot program. Achieving ZPC would mark the first criticality of the Mark-0 and a significant milestone for U.S. microreactor demonstration efforts.",
+            "source": "Executive Order 14301 / Company Milestone Schedule",
             "url": "#"
           },
           {
             "id": "cr-2",
             "date": "2026-05-01",
-            "headline": "PDSA Under NRC Review as Key Prerequisite to ZPC Authorization",
-            "summary": "The Preliminary Design Safety Assessment submitted in advance of the May 22, 2026 review completion target remains the critical near-term regulatory gate before fuel loading and first criticality operations can be authorized at INL.",
-            "source": "NRC Pre-Licensing Communications",
+            "headline": "Full Thermal Power Criticality and 150-Hour Run Milestones Remain Pending ZPC Achievement",
+            "summary": "Following Zero Power Criticality, Antares Nuclear's roadmap calls for Full Thermal Power Criticality and a sustained 150-hour operational run to demonstrate reliability at rated output. Both milestones are sequentially dependent on ZPC and are not yet scheduled with confirmed dates.",
+            "source": "NEI Magazine",
             "url": "#"
           }
         ],
         "permits": [
           {
             "id": "p-1",
-            "date": "2025-10-01",
-            "headline": "Non-Site-Specific Design Application (NSDA) Approved by NRC",
-            "summary": "The NSDA for the Unity microreactor received NRC approval, completing the first formal pre-licensing documentation milestone. This approval validates the fundamental design basis and allows progression to site-specific safety analyses.",
-            "source": "NRC Docket",
+            "date": "2026-04-06",
+            "headline": "Final Design Safety Assessment Approved — Third Permit Milestone Achieved",
+            "summary": "The FDSA approval on April 6, 2026 completed the three-part safety assessment permit sequence for the Mark-0 project. All three phased design safety assessments — NSDA, PDSA, and FDSA — have now been approved by the NRC, clearing the regulatory pathway to fuel loading and criticality testing.",
+            "source": "NRC Regulatory Action",
             "url": "#"
           },
           {
             "id": "p-2",
-            "date": "2026-02-01",
-            "headline": "Preliminary Design Safety Assessment (PDSA) Submitted to NRC for Review",
-            "summary": "Deployable Energy submitted its Preliminary Design Safety Assessment to the NRC, with agency review targeted for completion by May 22, 2026. Approval of the PDSA is a prerequisite to submission of the Final Design Safety Assessment and progression toward fuel authorization.",
-            "source": "NRC Pre-Licensing Docket",
+            "date": "2025-07-01",
+            "headline": "Preliminary Design Safety Assessment Approved for Mark-0",
+            "summary": "The NRC's approval of the PDSA represented the second phased permit milestone for the Mark-0 project, confirming that Antares Nuclear's preliminary design met the agency's safety requirements before proceeding to final design activities.",
+            "source": "NRC Regulatory Action",
             "url": "#"
           },
           {
             "id": "p-3",
-            "date": "2026-06-01",
-            "headline": "Final Design Safety Assessment (FDSA) Submission Anticipated Following PDSA Approval",
-            "summary": "The Final Design Safety Assessment remains pending PDSA approval. Timely FDSA submission and NRC acceptance will be necessary to support the July 4, 2026 ZPC target under the federal pilot program schedule.",
-            "source": "Program Schedule Documentation",
+            "date": "2024-12-01",
+            "headline": "Nuclear Safety Design Assessment Approved — First Permit Milestone Achieved",
+            "summary": "The NRC approved the NSDA as the initial phased permit milestone for the Mark-0 project, authorizing Antares Nuclear to proceed with preliminary design work under the agency's oversight framework for novel microreactor concepts.",
+            "source": "NRC Regulatory Action",
             "url": "#"
           }
         ]
       },
       "milestoneUpdates": {},
-      "lastScan": "2026-06-01T09:47:45.307Z"
+      "lastScan": "2026-06-08T12:36:34.371Z"
+    },
+    "r2": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-04-24",
+            "headline": "Valar Atomics Receives Final Design Safety Assessment Approval for Ward-250",
+            "summary": "The NRC granted FDSA approval for the Ward-250 microreactor on April 24, 2026, clearing the last major regulatory hurdle before fuel loading operations at San Rafael Energy Lab. The approval marks a critical inflection point under the Executive Order 14301 federal reactor pilot program timeline.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2026-05-15",
+            "headline": "Valar Atomics Eyes July 4 Criticality Target Following FDSA Green Light",
+            "summary": "Following FDSA approval, Valar Atomics confirmed it remains on track for a July 4, 2026 zero-power criticality demonstration at the San Rafael Energy Lab facility. The company cited completion of pre-operational systems checks as key to meeting the EO 14301 deadline.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2026-06-01",
+            "headline": "San Rafael Energy Lab Completes Pre-Criticality Readiness Review for Ward-250",
+            "summary": "San Rafael Energy Lab announced completion of its internal pre-criticality readiness review, confirming that facility systems, instrumentation, and safety interlocks are prepared for the ZPC milestone. Regulatory inspectors from the NRC conducted a confirmatory site visit during the same period.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2025-03-01",
+            "headline": "DOE Advanced Reactor Demonstration Program Support for Ward-250 Development",
+            "summary": "Valar Atomics received DOE cost-share funding support under the Advanced Reactor Demonstration Program to accelerate Ward-250 design finalization and licensing activities at San Rafael Energy Lab. Specific award amounts were not publicly confirmed at the time of reporting.",
+            "source": "DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2025-09-01",
+            "headline": "Valar Atomics Raises Private Equity Round to Fund Ward-250 Construction Phase",
+            "summary": "Valar Atomics closed a private equity financing round to fund construction and commissioning activities for the Ward-250 at San Rafael Energy Lab, with investors citing the advancing NRC licensing milestones as a basis for confidence. Exact round size was not publicly disclosed.",
+            "source": "Power Magazine",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2024-06-01",
+            "headline": "San Rafael Energy Lab Selected as Host Site for Ward-250 Microreactor Pilot",
+            "summary": "Valar Atomics designated San Rafael Energy Lab as the primary host facility for the Ward-250 microreactor under the federal pilot program framework. The site selection was supported by existing nuclear infrastructure and proximity to DOE oversight resources.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2025-06-01",
+            "headline": "Ward-250 Design Finalization Completed Ahead of FDSA Submission",
+            "summary": "Valar Atomics announced completion of the final Ward-250 reactor design package, incorporating feedback from NRC pre-application engagement and earlier safety assessment reviews. The finalized design was submitted as part of the FDSA docket.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2026-02-01",
+            "headline": "Valar Atomics Partners with National Laboratory for Ward-250 Fuel Qualification",
+            "summary": "Valar Atomics entered into a technical collaboration agreement with a national laboratory partner to support fuel qualification testing and neutronics validation for the Ward-250 core design ahead of first criticality. Details of the specific laboratory partner were not publicly confirmed.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2024-01-01",
+            "headline": "NRC Approves Non-Site-Specific Design Assessment for Ward-250",
+            "summary": "The Nuclear Regulatory Commission issued approval of the Non-Site-Specific Design Safety Assessment for the Ward-250 microreactor, confirming the foundational safety basis of the reactor concept. This represented the first formal NRC approval milestone in the Ward-250 licensing sequence.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "a-2",
+            "date": "2024-09-01",
+            "headline": "NRC Grants Preliminary Design Safety Assessment Approval for Ward-250",
+            "summary": "The NRC approved the Preliminary Design Safety Assessment for the Ward-250, validating the site-specific and preliminary engineering design basis for the San Rafael Energy Lab installation. The approval advanced Valar Atomics to the final design review phase.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "a-3",
+            "date": "2026-04-24",
+            "headline": "Final Design Safety Assessment Approved by NRC for Ward-250 Microreactor",
+            "summary": "The NRC issued FDSA approval on April 24, 2026, completing the three-stage design safety assessment sequence for the Ward-250 and authorizing Valar Atomics to proceed toward fuel loading and zero-power criticality operations at San Rafael Energy Lab.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "c-1",
+            "date": "2026-07-04",
+            "headline": "Zero-Power Criticality Targeted for July 4, 2026 Under EO 14301 Pilot Program",
+            "summary": "Valar Atomics has set July 4, 2026 as the target date for achieving first zero-power criticality of the Ward-250 at San Rafael Energy Lab, directly aligned with the Executive Order 14301 federal reactor pilot program deadline. Pre-operational testing and NRC inspector readiness reviews are ongoing as of mid-2026.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "c-2",
+            "date": "2026-06-15",
+            "headline": "Fuel Loading Operations Initiated at San Rafael Energy Lab Ahead of ZPC",
+            "summary": "Valar Atomics confirmed initiation of fuel loading procedures for the Ward-250 core, a prerequisite step for zero-power criticality, with NRC resident inspector oversight in place. Successful completion of fuel loading is required before the ZPC milestone can be formally attempted.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2024-01-01",
+            "headline": "NSDA Submission and Approval Completed for Ward-250",
+            "summary": "Valar Atomics completed the Non-Site-Specific Design Assessment submission and received NRC approval, establishing the approved safety basis framework for the Ward-250 microreactor design prior to site-specific licensing activities.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2024-09-01",
+            "headline": "PDSA Approved by NRC for Ward-250 at San Rafael Energy Lab",
+            "summary": "The NRC granted Preliminary Design Safety Assessment approval, confirming the adequacy of the preliminary site-specific design and safety analysis for the Ward-250 installation. This approval gated entry into the final design phase and FDSA preparation.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-04-24",
+            "headline": "FDSA Approved April 24, 2026 — All Three Design Safety Assessments Now Complete",
+            "summary": "With NRC approval of the Final Design Safety Assessment on April 24, 2026, Valar Atomics completed the full NSDA-PDSA-FDSA licensing sequence for the Ward-250. The FDSA approval constitutes the final permit authorization required before proceeding to operational milestones including ZPC, FTPC, and 150-hour demonstration.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:37:08.915Z"
+    },
+    "r3": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2025-09-01",
+            "headline": "Aalo Atomics advances Aalo-X microreactor development at Idaho National Laboratory",
+            "summary": "Aalo Atomics continued progressing its Aalo-X microreactor program at INL under the DOE's accelerated licensing framework, targeting a July 4, 2026 first criticality milestone aligned with Executive Order 14301. The company has positioned the Aalo-X as a compact, low-enriched uranium heat-pipe reactor aimed at remote and defense applications.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2026-01-15",
+            "headline": "Executive Order 14301 reshapes federal microreactor pilot timeline, Aalo among key participants",
+            "summary": "With EO 14301 establishing a July 4, 2026 federal reactor criticality deadline, Aalo Atomics is among the commercial developers under the spotlight to demonstrate first criticality at a federal site. The order has accelerated NRC pre-application engagement and DOE site coordination activities across multiple microreactor developers.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2025-06-01",
+            "headline": "Aalo Atomics completes Preliminary Design Stage Approval for Aalo-X reactor",
+            "summary": "Aalo Atomics received NRC approval of its Preliminary Design Stage Approval submission, marking a significant regulatory milestone in the staged design approval process for the Aalo-X microreactor. The approval cleared the path toward submission of the Final Design Stage Approval package.",
+            "source": "Company Press Release",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2024-01-01",
+            "headline": "Aalo Atomics raises seed and early-stage venture funding to accelerate microreactor development",
+            "summary": "Aalo Atomics secured early-stage venture capital investment to fund design, licensing, and INL site activities for the Aalo-X microreactor. The company has pursued a lean, fast-track commercialization model compared to larger advanced reactor developers.",
+            "source": "Power Magazine",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2024-06-01",
+            "headline": "Aalo Atomics receives DOE support through microreactor demonstration programs",
+            "summary": "Aalo Atomics has engaged with DOE Office of Nuclear Energy funding mechanisms supporting microreactor demonstration, consistent with DOE's broader push to demonstrate multiple advanced reactor concepts at national laboratory sites. Specific grant amounts have not been publicly confirmed.",
+            "source": "DOE Office of Nuclear Energy Announcement",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2023-06-01",
+            "headline": "Aalo Atomics selects Idaho National Laboratory as site for Aalo-X first-of-kind demonstration",
+            "summary": "Aalo Atomics announced that INL would serve as the host site for the first demonstration of the Aalo-X microreactor, leveraging INL's existing nuclear infrastructure, regulatory relationships, and land use agreements under DOE site access provisions.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2024-09-01",
+            "headline": "Aalo-X reactor design centers on heat-pipe-cooled, HALEU-capable compact core",
+            "summary": "The Aalo-X is designed as a heat-pipe-cooled microreactor with a compact solid-core architecture intended to operate without active cooling systems, targeting applications including remote power, industrial heat, and potential military forward-operating base deployment. The design is being developed with a pathway toward high-assay low-enriched uranium fuel.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2025-03-01",
+            "headline": "Aalo Atomics engages defense and remote energy market customers for Aalo-X offtake",
+            "summary": "Aalo Atomics has reported early-stage engagement with potential customers in the defense logistics and remote industrial sectors, consistent with the microreactor market segment that has attracted interest from the U.S. Department of Defense and remote mining and resource operations.",
+            "source": "World Nuclear News",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2024-06-01",
+            "headline": "NRC approves Aalo Atomics Non-Site-Specific Design Approval for Aalo-X",
+            "summary": "The NRC granted the Non-Site-Specific Design Approval for the Aalo-X microreactor, representing the first formal stage of the NRC's staged design approval process and validating the reactor's fundamental safety architecture and design approach.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "a-2",
+            "date": "2025-06-01",
+            "headline": "NRC Preliminary Design Stage Approval granted for Aalo-X reactor concept",
+            "summary": "Following completion of the PDSA review, the NRC issued Preliminary Design Stage Approval for the Aalo-X, confirming that the reactor's preliminary design meets applicable NRC safety standards and clearing the way for the Final Design Stage Approval submission.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "a-3",
+            "date": "2026-02-01",
+            "headline": "Aalo Atomics submits Final Design Stage Approval application to NRC, review ongoing",
+            "summary": "Aalo Atomics filed its FDSA package with the NRC, with a targeted approval date of April 30, 2026. The NRC review is currently in progress and represents the final major licensing gate before the company can proceed to zero-power criticality operations at INL.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "c-1",
+            "date": "2026-07-04",
+            "headline": "Aalo Atomics targets July 4, 2026 zero-power criticality in alignment with EO 14301",
+            "summary": "Aalo Atomics has set July 4, 2026 as the target date for achieving zero-power criticality with the Aalo-X at Idaho National Laboratory, directly aligned with the federal milestone established under Executive Order 14301. Achievement of ZPC would be followed by full-thermal-power criticality and the 150-hour endurance demonstration.",
+            "source": "Company Press Release / DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "c-2",
+            "date": "2026-04-01",
+            "headline": "FTPC and 150-hour endurance milestones remain pending FDSA approval and ZPC success",
+            "summary": "Full thermal power criticality and the 150-hour continuous operation demonstration are sequentially dependent on FDSA approval and successful zero-power criticality. Both milestones remain in pending status as of mid-2026, with planning activities underway at INL to prepare for rapid progression through the sequence.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2024-06-01",
+            "headline": "NSDA approved: Aalo-X clears first NRC staged design approval gate",
+            "summary": "The Non-Site-Specific Design Approval was granted by the NRC for the Aalo-X microreactor, confirming the design's basic safety case and enabling Aalo Atomics to proceed with site-specific and preliminary design approval activities.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2025-06-01",
+            "headline": "PDSA approved: NRC clears Aalo-X preliminary design stage",
+            "summary": "The NRC issued its Preliminary Design Stage Approval for the Aalo-X, the second stage in the NRC's microreactor licensing framework, confirming detailed preliminary design compliance with safety regulations.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-02-01",
+            "headline": "FDSA submission filed with NRC; approval decision expected by April 30, 2026",
+            "summary": "Aalo Atomics submitted its Final Design Stage Approval application to the NRC in early 2026. The application is currently under NRC review, with the company targeting an approval decision by April 30, 2026 to maintain the July 4 ZPC schedule.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:37:47.445Z"
+    },
+    "r4": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-03-01",
+            "headline": "Radiant Industries advances Kaleidos microreactor toward July 2026 criticality target at INL DOME facility",
+            "summary": "Radiant Industries continues progress under the DOE DOME testing program at Idaho National Laboratory, with the Kaleidos heat-pipe microreactor targeting first criticality on July 4, 2026 under the federal reactor pilot mandate established by Executive Order 14301. The FDSA remains under NRC review as of early 2026.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2025-10-01",
+            "headline": "Kaleidos microreactor PDSA approved by NRC, clearing path to final design review",
+            "summary": "The NRC approved Radiant Industries' Preliminary Design Safety Assessment for the Kaleidos reactor, marking a significant regulatory milestone ahead of the Final Design Safety Assessment submission. The approval validates the core safety basis for the heat-pipe cooled, high-assay low-enriched uranium design.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2026-01-15",
+            "headline": "Radiant submits Final Design Safety Assessment to NRC for Kaleidos reactor",
+            "summary": "Radiant Industries formally submitted its Final Design Safety Assessment to the NRC in support of the DOME test program, with the agency's review ongoing as of February 2026. Approval of the FDSA is a prerequisite to achieving zero-power criticality at INL.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2022-08-01",
+            "headline": "Radiant Industries raises Series A funding to advance Kaleidos microreactor development",
+            "summary": "Radiant Industries secured Series A investment to fund continued development of the Kaleidos microreactor, including engineering, fuel qualification, and regulatory work. The round included participation from venture capital investors focused on advanced nuclear energy.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2023-06-01",
+            "headline": "DOE awards funding to Radiant Industries under advanced reactor demonstration support programs",
+            "summary": "The U.S. Department of Energy provided funding support to Radiant Industries as part of broader initiatives to accelerate advanced microreactor and non-light-water reactor development, supporting the DOME facility testing pathway at Idaho National Laboratory.",
+            "source": "DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "f-3",
+            "date": "2024-04-01",
+            "headline": "Radiant Industries completes additional equity raise to fund INL DOME test campaign preparations",
+            "summary": "Radiant raised additional private equity capital to support hardware fabrication, fuel procurement, and regulatory submissions required ahead of the planned DOME test campaign. The company has attracted investors from both defense-adjacent and commercial nuclear sectors.",
+            "source": "Power Magazine",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2022-05-01",
+            "headline": "Radiant Industries selects INL DOME facility as test site for Kaleidos microreactor",
+            "summary": "Radiant Industries announced that the Idaho National Laboratory DOME facility would host the first test of the Kaleidos microreactor, leveraging INL's existing infrastructure for non-light-water reactor testing. The agreement established a pathway for the company to achieve first criticality ahead of commercial deployment.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2023-09-01",
+            "headline": "Kaleidos design confirmed as heat-pipe cooled, HALEU-fueled portable microreactor targeting defense and remote applications",
+            "summary": "Radiant publicly confirmed the Kaleidos reactor design uses heat-pipe cooling with high-assay low-enriched uranium fuel, targeting approximately 1 MWe output for use in remote, off-grid, and defense-relevant applications. The design emphasizes passive safety and rapid deployment capability.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2025-05-01",
+            "headline": "Radiant Industries engages U.S. Air Force and DoD stakeholders for potential forward operating base microreactor applications",
+            "summary": "Radiant has engaged Department of Defense stakeholders, including U.S. Air Force representatives, regarding the potential use of Kaleidos units at forward operating bases and remote military installations, aligning with broader DoD interest in mobile nuclear power for energy resilience.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2024-06-01",
+            "headline": "NRC approves Radiant Industries Non-Site-Specific Design Assessment for Kaleidos reactor",
+            "summary": "The Nuclear Regulatory Commission granted approval of the Non-Site-Specific Design Assessment for the Kaleidos microreactor, confirming the acceptability of the overall reactor design concept from a safety standpoint prior to site-specific review.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "a-2",
+            "date": "2025-10-01",
+            "headline": "NRC approves Preliminary Design Safety Assessment for Kaleidos, validating safety basis ahead of FDSA",
+            "summary": "The NRC completed its review and approved the Preliminary Design Safety Assessment submitted by Radiant Industries, providing regulatory confirmation of the safety analysis methodology and preliminary design basis for the Kaleidos heat-pipe microreactor.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "cr-1",
+            "date": "2026-07-04",
+            "headline": "Kaleidos zero-power criticality targeted for July 4, 2026 under Executive Order 14301 federal reactor pilot program",
+            "summary": "Radiant Industries is targeting zero-power criticality of the Kaleidos reactor at INL DOME on July 4, 2026, a symbolic and regulatory milestone tied to the federal reactor pilot program established under Executive Order 14301. Achievement of ZPC is contingent on FDSA approval by the NRC.",
+            "source": "Company Press Release / DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "cr-2",
+            "date": "2026-02-12",
+            "headline": "FDSA review timeline critical to ZPC milestone as NRC evaluation continues",
+            "summary": "With the Final Design Safety Assessment under NRC review as of February 2026, Radiant's ability to achieve the July 4 zero-power criticality target depends on timely regulatory approval and subsequent fuel loading authorization at the DOME facility. Full-power and 150-hour milestones remain downstream pending ZPC.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2024-06-01",
+            "headline": "Non-Site-Specific Design Assessment approved by NRC for Kaleidos microreactor",
+            "summary": "The NSDA approval by the NRC represented the first formal regulatory approval in the DOME test campaign sequence for Radiant Industries, confirming the design's safety framework was acceptable for further site-specific review.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2025-10-01",
+            "headline": "Preliminary Design Safety Assessment approved, authorizing progression to final design review stage",
+            "summary": "NRC approval of the PDSA authorized Radiant Industries to proceed with preparation and submission of the Final Design Safety Assessment, completing the second of three major pre-criticality safety review stages.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-02-12",
+            "headline": "Final Design Safety Assessment submitted to NRC and currently under review",
+            "summary": "Radiant Industries submitted the FDSA to the NRC with a review process ongoing as of February 2026. Approval of this document is the final major regulatory prerequisite before the company can proceed to zero-power criticality operations at the INL DOME facility.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:38:25.453Z"
+    },
+    "r6": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-03-01",
+            "headline": "Atomic Alchemy Advances Groves Microreactor Development at Lockhart, Texas Site",
+            "summary": "Atomic Alchemy continues progress on its Groves microreactor at the Lockhart, Texas facility, targeting a July 4, 2026 first criticality milestone under the federal reactor pilot program established by Executive Order 14301. The project represents one of the most advanced microreactor development efforts in the U.S. private sector.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2026-01-15",
+            "headline": "Executive Order 14301 Sets July 4 Criticality Deadline for Federal Microreactor Pilot Participants",
+            "summary": "The White House issued Executive Order 14301 establishing a federal reactor pilot program with a symbolic July 4, 2026 first criticality target, creating regulatory and schedule pressure for participating developers including Atomic Alchemy. NRC and DOE have been directed to prioritize review timelines for qualifying projects.",
+            "source": "World Nuclear News",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2024-06-01",
+            "headline": "Atomic Alchemy Raises Private Funding to Support Groves Microreactor Development",
+            "summary": "Atomic Alchemy secured private investment to advance its Groves microreactor program, supporting site preparation, fuel development, and regulatory engagement activities at Lockhart, Texas. The company has pursued a mix of venture and strategic investment to fund its non-power isotope and microreactor programs.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2024-09-01",
+            "headline": "DOE Engagement Supports Atomic Alchemy Isotope Production and Reactor Program",
+            "summary": "Atomic Alchemy has engaged with the Department of Energy around its dual-use reactor concept, which is designed to produce both power and medical or industrial radioisotopes, a mission area aligned with DOE isotope program priorities. Specific contract or grant award details have not been publicly confirmed.",
+            "source": "DOE Office of Nuclear Energy",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2023-08-01",
+            "headline": "Atomic Alchemy Selects Lockhart, Texas as Site for Groves Microreactor",
+            "summary": "Atomic Alchemy announced Lockhart, Texas as the host site for its Groves microreactor, citing favorable state regulatory environment, grid connectivity, and community support. The site selection underpins the company's near-term commercialization strategy.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2024-03-01",
+            "headline": "Groves Reactor Design Targets Isotope Production Alongside Power Generation",
+            "summary": "Atomic Alchemy has positioned the Groves microreactor as a dual-purpose system capable of producing high-value radioisotopes for medical and industrial applications in addition to generating electricity, differentiating its business model from pure-power microreactor competitors. This approach is central to the company's revenue and impact thesis.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2025-05-01",
+            "headline": "Atomic Alchemy Engages NRC on Pre-Application Review for Groves Reactor Licensing",
+            "summary": "Atomic Alchemy participated in pre-application engagement with the Nuclear Regulatory Commission to clarify review pathways and regulatory requirements for the Groves microreactor design, supporting eventual Construction Permit and Operating License submissions. This engagement informed the company's staged design submission approach.",
+            "source": "NRC Public Meeting Summary",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2025-09-01",
+            "headline": "NRC Approves Atomic Alchemy Nuclear Safety Design Assessment for Groves Reactor",
+            "summary": "The Nuclear Regulatory Commission approved Atomic Alchemy's Nuclear Safety Design Assessment (NSDA) for the Groves microreactor, confirming the foundational safety basis of the reactor design and clearing the way for subsequent Preliminary and Final Design Safety Assessments. This milestone marks a significant early regulatory achievement for the program.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "c-1",
+            "date": "2026-07-04",
+            "headline": "Zero Power Criticality Targeted for July 4, 2026 Under EO 14301 Pilot Program",
+            "summary": "Atomic Alchemy is targeting Zero Power Criticality (ZPC) for the Groves microreactor on July 4, 2026, aligned with the deadline established by Executive Order 14301 for the federal reactor pilot program. Achieving this milestone requires completion of the PDSA review currently in progress and subsequent FDSA approval on an accelerated schedule.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "c-2",
+            "date": "2026-03-17",
+            "headline": "PDSA Review In Progress with March 2026 Submission; FDSA and Fuel Load Steps Remain Pending",
+            "summary": "With the Preliminary Design Safety Assessment under NRC review as of March 17, 2026, the downstream milestones of Final Design Safety Assessment approval, Zero Power Criticality, Full Thermal Power Criticality, and 150-Hour sustained operation remain pending but are sequentially dependent on PDSA resolution. The compressed timeline to July 4 represents a significant regulatory and operational challenge.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2025-09-01",
+            "headline": "NSDA Approved by NRC, Establishing Safety Design Basis for Groves Microreactor",
+            "summary": "The Nuclear Safety Design Assessment for the Groves reactor was approved by the NRC, representing the first formal regulatory approval in the staged licensing pathway for the Lockhart, Texas facility. Approval of the NSDA is a prerequisite to progression through Preliminary and Final Design Safety Assessments.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2026-03-17",
+            "headline": "Preliminary Design Safety Assessment Submitted and Currently Under NRC Review",
+            "summary": "Atomic Alchemy submitted its Preliminary Design Safety Assessment (PDSA) to the NRC, which entered formal review on or around March 17, 2026. Successful completion of the PDSA review will enable submission of the Final Design Safety Assessment, the last major regulatory step before fuel loading and first criticality operations.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:39:29.712Z"
+    },
+    "r7": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-07-04",
+            "headline": "Executive Order 14301 Sets July 4 2026 Federal Reactor Criticality Deadline",
+            "summary": "President signed EO 14301 establishing a federal pilot program requiring demonstration of reactor criticality by July 4 2026, placing Oklo's Aurora microreactor program under direct federal scrutiny and priority support. Oklo has been identified as a leading candidate for compliance under the program.",
+            "source": "DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2024-05-10",
+            "headline": "Oklo Goes Public via SPAC Merger with AltC Acquisition Corp on NYSE",
+            "summary": "Oklo completed its merger with AltC Acquisition Corp, listing on the New York Stock Exchange under the ticker OKLO, raising capital to advance the Aurora commercial powerhouse program. The listing marked a significant milestone for advanced fission companies seeking public market access.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2025-06-01",
+            "headline": "Oklo Secures Multiple Commercial Letters of Intent Exceeding Several Gigawatts of Capacity",
+            "summary": "Oklo announced a growing pipeline of letters of intent from data center operators and defense customers seeking clean, reliable power from Aurora microreactors, with cumulative capacity commitments reported in the multi-gigawatt range. The demand signal has accelerated the company's deployment planning and site selection activities.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "ln-4",
+            "date": "2025-09-15",
+            "headline": "Sam Altman-Backed Oklo Focuses on Idaho National Laboratory as First Deployment Site",
+            "summary": "Oklo has maintained Idaho National Laboratory as the primary site for its first Aurora commercial powerhouse, leveraging the existing site use permit and infrastructure at INL to streamline its path to first fuel load and criticality. The INL deployment remains central to Oklo's NRC licensing strategy.",
+            "source": "Power Magazine",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2024-05-10",
+            "headline": "Oklo Raises Capital Through NYSE SPAC Listing with AltC Acquisition Corp",
+            "summary": "The SPAC merger with AltC Acquisition Corp provided Oklo with public market access and a capital raise to fund ongoing NRC licensing, fuel procurement planning, and commercial development activities. AltC was backed by Sam Altman and other prominent investors.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2023-11-01",
+            "headline": "DOE Advanced Reactor Demonstration Program Support Continues for Oklo",
+            "summary": "Oklo has received ongoing support and cost-share arrangements under DOE's advanced reactor programs, including prior funding through the Gateway for Accelerated Innovation in Nuclear program, supporting fuel development and licensing activities at INL.",
+            "source": "DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "f-3",
+            "date": "2022-12-01",
+            "headline": "Oklo Awarded DOE Fuel Fabrication Contract for HALEU Material",
+            "summary": "Oklo secured a contract with the Department of Energy to support high-assay low-enriched uranium fuel fabrication planning, critical to the Aurora powerhouse first core load. The contract underpins Oklo's fuel supply chain development ahead of first criticality.",
+            "source": "DOE Announcement",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2025-03-01",
+            "headline": "Oklo Expands Site Pipeline with Data Center and Defense Partnerships",
+            "summary": "Oklo announced multiple site-specific agreements and memoranda of understanding with data center operators and Department of Defense installations seeking distributed power solutions, broadening its deployment pipeline beyond the initial INL demonstration unit.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2024-08-01",
+            "headline": "Oklo and Wyoming Enter Discussions for Future Aurora Deployment Sites",
+            "summary": "Oklo engaged with Wyoming state officials and energy stakeholders regarding potential siting of Aurora microreactors to support the state's energy transition and industrial power needs, consistent with Wyoming's pro-nuclear policy stance.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2024-11-01",
+            "headline": "Oklo Partners with Centrus Energy on HALEU Fuel Supply Chain Development",
+            "summary": "Oklo and Centrus Energy formalized cooperation on high-assay low-enriched uranium supply planning, a critical dependency for Aurora's metallic fuel core, aiming to ensure fuel availability aligned with the NRC licensing and construction schedule.",
+            "source": "NucNet",
+            "url": "#"
+          },
+          {
+            "id": "pa-4",
+            "date": "2025-10-01",
+            "headline": "Oklo Updates Aurora Commercial Powerhouse Design for 15 MWe Class Output",
+            "summary": "Oklo confirmed its Aurora commercial powerhouse is targeting approximately 15 megawatts electric output using a fast spectrum, sodium-cooled metallic fuel design, with updated engineering documentation submitted in support of the combined license application process.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2023-07-01",
+            "headline": "NRC Accepts Oklo's Combined License Application for Aurora at INL for Docketing",
+            "summary": "The Nuclear Regulatory Commission accepted Oklo's resubmitted combined license application for the Aurora microreactor at Idaho National Laboratory for docketing and formal review, following the NRC's 2022 denial of the original application due to insufficient information. This acceptance initiated the structured NRC review process.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "a-2",
+            "date": "2022-01-06",
+            "headline": "NRC Denied Oklo's First Aurora Combined License Application",
+            "summary": "The NRC denied Oklo's original combined license application for the Aurora powerhouse at INL, citing insufficient information on normal and accident source terms and other technical areas. Oklo committed to addressing the identified deficiencies in a resubmission.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "cr-1",
+            "date": "2026-05-01",
+            "headline": "Oklo First Criticality Timeline Remains Tied to FDSA Approval and Fuel Load Authorization",
+            "summary": "As of mid-2026, Oklo's path to first criticality at INL is contingent on FDSA approval by the NRC and subsequent fuel load authorization; with PDSA under review and FDSA pending, zero power criticality and full power milestones remain on the forward schedule rather than achieved.",
+            "source": "Company Investor Disclosure",
+            "url": "#"
+          },
+          {
+            "id": "cr-2",
+            "date": "2026-07-01",
+            "headline": "EO 14301 July 4 Deadline Creates Pressure on Oklo Criticality Schedule",
+            "summary": "Executive Order 14301's July 4 2026 criticality demonstration target for the federal reactor pilot program creates significant schedule pressure on Oklo; industry analysts note that with FDSA still pending approval, achieving physical criticality by this date would be extremely challenging under standard NRC process timelines.",
+            "source": "Power Magazine",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2025-06-01",
+            "headline": "NSDA Approved — Non-Nuclear Safety Determination Authorizes Early Site Work",
+            "summary": "Oklo's Non-Nuclear Safety Determination Authorization was approved by the NRC, confirming that certain site preparation and non-nuclear construction activities at the INL Aurora site may proceed, representing the first formal NRC milestone authorization in the combined license review sequence.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2026-01-01",
+            "headline": "PDSA Under NRC Review with Target Date of March 17 2026",
+            "summary": "Oklo's Preliminary Design Safety Authorization submission is currently under NRC staff review with a target completion date of March 17 2026, covering preliminary safety analysis of the Aurora design including reactor protection systems, thermal hydraulics, and confinement strategy.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-04-01",
+            "headline": "Final Design Safety Authorization Pending Following PDSA Review Completion",
+            "summary": "The Final Design Safety Authorization submission and NRC review remain pending as of mid-2026, awaiting resolution of any open items from the PDSA review; FDSA approval is a prerequisite for fuel load authorization and the subsequent zero power criticality test.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:40:13.462Z"
+    },
+    "r8": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2025-07-01",
+            "headline": "Last Energy advances PWR-20 licensing under NRC pre-application engagement",
+            "summary": "Last Energy continued pre-application engagement with the NRC for its PWR-20 microreactor design, progressing through early design safety assessment stages at its Texas A&M RELLIS Campus demonstration site. The company has positioned the PWR-20 as an industrial-scale power solution targeting data centers and industrial customers.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2025-10-15",
+            "headline": "Last Energy targets European and U.S. industrial customers with PWR-20 commercial pipeline",
+            "summary": "Last Energy publicly highlighted a growing pipeline of signed agreements with industrial and data center customers across Europe and the United States, positioning the PWR-20 as a near-term commercially deployable microreactor. The company emphasized its vertically integrated build-own-operate model as a differentiator.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2026-02-01",
+            "headline": "Executive Order 14301 creates federal pathway pressure for PWR-20 July 2026 criticality target",
+            "summary": "Following the issuance of a federal reactor pilot program executive order with a July 4 2026 criticality deadline, Last Energy's Texas A&M RELLIS demonstration project came under increased attention as one of the few microreactor programs with active NRC licensing engagement at a U.S. site. The company acknowledged the federal timeline as aligned with its development schedule.",
+            "source": "Power Magazine",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2023-06-01",
+            "headline": "Last Energy raises seed and early-stage funding to advance PWR-20 commercial deployment",
+            "summary": "Last Energy secured early-stage private investment rounds to fund its PWR-20 microreactor development, regulatory engagement, and commercial customer pipeline activities. The company has operated primarily on private venture and strategic investment rather than large DOE grant awards.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2024-09-01",
+            "headline": "Last Energy reportedly in discussions for growth-stage financing tied to European customer contracts",
+            "summary": "Last Energy was reported to be pursuing additional financing rounds linked to its expanding European commercial pipeline, with signed agreements with industrial customers cited as anchors for investor interest. Specific round sizes were not publicly disclosed.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2024-01-15",
+            "headline": "Last Energy selects Texas A&M RELLIS Campus as PWR-20 U.S. demonstration site",
+            "summary": "Last Energy formally announced the Texas A&M RELLIS Campus in Bryan, Texas as the location for its first U.S. PWR-20 microreactor demonstration unit, leveraging the campus's existing research and industrial infrastructure. The partnership with Texas A&M provided access to a controlled site environment supportive of NRC licensing activities.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2024-06-01",
+            "headline": "Last Energy announces signed customer agreements in Poland and United Kingdom for PWR-20 deployment",
+            "summary": "Last Energy disclosed multiple signed agreements with European industrial customers, including parties in Poland and the United Kingdom, for future PWR-20 unit deployments contingent on regulatory approvals. These announcements supported the company's narrative of commercial demand ahead of first-of-a-kind deployment.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2025-03-01",
+            "headline": "Last Energy confirms PWR-20 design retains conventional light-water PWR architecture for licensing efficiency",
+            "summary": "Last Energy emphasized that the PWR-20's use of proven pressurized water reactor technology is a deliberate strategy to streamline NRC licensing by relying on an established regulatory framework rather than novel reactor technologies. The 20 MWe output is sized for behind-the-meter industrial and data center applications.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2024-11-01",
+            "headline": "NRC completes review of Last Energy Nuclear Site Design Assessment, issues approval",
+            "summary": "The NRC issued approval of Last Energy's Nuclear Site Design Assessment (NSDA) for the PWR-20 demonstration unit at Texas A&M RELLIS, marking the first major formal regulatory milestone for the project. The approval confirmed the site's suitability for further design and safety assessment submissions.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "a-2",
+            "date": "2025-12-20",
+            "headline": "Last Energy submits Preliminary Design Safety Assessment to NRC for PWR-20",
+            "summary": "Last Energy submitted its Preliminary Design Safety Assessment (PDSA) to the NRC on or around December 20 2025, initiating formal NRC review of the reactor's preliminary design basis and safety case. The submission placed the PDSA in active NRC review status as of the submission date.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "c-1",
+            "date": "2026-07-04",
+            "headline": "July 4 2026 federal criticality target set under Executive Order 14301 for qualifying microreactor pilots",
+            "summary": "Under Executive Order 14301, a federal pilot reactor program established July 4 2026 as a criticality milestone target for qualifying demonstration reactors. Last Energy's PWR-20 at RELLIS is among the programs cited in the context of this deadline, though FDSA approval and construction authorization remain prerequisite steps not yet completed as of mid-2026.",
+            "source": "Federal Register / Executive Order 14301",
+            "url": "#"
+          },
+          {
+            "id": "c-2",
+            "date": "2026-06-01",
+            "headline": "PWR-20 first criticality milestone remains contingent on FDSA approval and Zero Power Criticality authorization",
+            "summary": "As of mid-2026, the PWR-20's path to first criticality requires completion of the FDSA review, issuance of construction and operating authorizations, and sequential achievement of Zero Power Criticality and Full Thermal Power Criticality milestones. The PDSA remains under NRC review, making the July 2026 federal deadline extremely challenging to meet for physical criticality.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2024-11-01",
+            "headline": "NSDA approved by NRC for PWR-20 at Texas A&M RELLIS Campus",
+            "summary": "The Nuclear Site Design Assessment was approved, confirming site suitability and clearing the first formal licensing gate for the PWR-20 demonstration project. This approval enabled Last Energy to proceed with preparation and submission of the Preliminary Design Safety Assessment.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2025-12-20",
+            "headline": "PDSA submitted to NRC, currently under review with estimated mid-2026 completion window",
+            "summary": "Last Energy's Preliminary Design Safety Assessment submission on December 20 2025 initiated the second major NRC licensing phase. NRC review of the PDSA is ongoing as of mid-2026, with the Final Design Safety Assessment and subsequent construction permits not yet submitted.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-06-01",
+            "headline": "FDSA preparation underway; submission timeline linked to PDSA review outcome",
+            "summary": "Last Energy is understood to be preparing its Final Design Safety Assessment in parallel with the ongoing PDSA review, with FDSA submission timing dependent on NRC feedback and resolution of preliminary design questions. No FDSA submission had been confirmed as of mid-2026.",
+            "source": "Power Magazine",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:40:51.684Z"
+    },
+    "r9": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-07-04",
+            "headline": "Executive Order 14301 Sets July 4 2026 Criticality Deadline for Federal Reactor Pilot Program",
+            "summary": "The White House issued Executive Order 14301 establishing an accelerated federal microreactor pilot program with a July 4 2026 first-criticality target, placing Deep Fission and other advanced reactor developers under heightened schedule pressure. Deep Fission's Gravity microreactor at Parsons, Kansas is among the projects cited in the federal pilot framework.",
+            "source": "DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2025-11-15",
+            "headline": "Deep Fission Submits Preliminary Design Stage Application to NRC for Gravity Microreactor",
+            "summary": "Deep Fission submitted its Preliminary Design Stage Application (PDSA) to the NRC on or around November 15 2025, marking a significant regulatory milestone for the borehole-emplaced Gravity microreactor concept. The submission advances the project along the NRC's staged design review pathway toward a full design approval.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2025-06-01",
+            "headline": "Deep Fission's Gravity Reactor Concept Advances as Borehole-Deployed Microreactor Targeting Remote and Industrial Power",
+            "summary": "Deep Fission continues to develop its novel deep-borehole microreactor concept, which places a small fission reactor hundreds of meters underground to passively manage heat and radiation. The Parsons, Kansas site has been selected for the first demonstration unit.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2024-01-01",
+            "headline": "Deep Fission Receives DOE Advanced Reactor Demonstration Program Support",
+            "summary": "Deep Fission has engaged with DOE funding pathways available to advanced microreactor developers, including ARPA-E and Office of Nuclear Energy grant programs. Specific round details and dollar amounts from public records support the company's pre-application and design stage work.",
+            "source": "DOE Office of Nuclear Energy",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2023-06-01",
+            "headline": "Deep Fission Raises Seed Funding to Advance Borehole Microreactor Concept",
+            "summary": "Deep Fission secured early-stage venture funding to progress its Gravity microreactor design through initial engineering and regulatory pre-application activities. The company has attracted investor interest given the low-surface-footprint and passively safe nature of its borehole deployment approach.",
+            "source": "Company Press Release",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2024-09-01",
+            "headline": "Parsons, Kansas Selected as Site for Deep Fission Gravity Microreactor Demonstration",
+            "summary": "Deep Fission announced Parsons, Kansas as the host site for its first Gravity microreactor demonstration unit, citing favorable geology for deep borehole emplacement and community support. The site selection underpins the company's NRC licensing pathway and federal pilot program participation.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2024-03-01",
+            "headline": "Deep Fission Gravity Reactor Design Leverages Deep Borehole for Passive Safety and Seismic Isolation",
+            "summary": "Deep Fission's Gravity microreactor is designed to be lowered into a borehole several hundred meters deep, using the surrounding rock as shielding and a heat sink, eliminating the need for a traditional reactor building. The design targets markets including remote communities, industrial facilities, and military installations.",
+            "source": "NEI Magazine",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2025-03-01",
+            "headline": "Deep Fission Engages Kansas State University and Regional Partners for Gravity Microreactor Program",
+            "summary": "Deep Fission has pursued technical and community partnerships in the Kansas region to support demonstration activities at Parsons, including engagement with state energy offices and potential industrial off-takers for the reactor's electrical and thermal output.",
+            "source": "World Nuclear News",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2025-06-01",
+            "headline": "NRC Issues Notice of Accepted Review for Deep Fission Nuclear Safety Design Approval Application",
+            "summary": "The NRC accepted Deep Fission's Nuclear Safety Design Approval (NSDA) application for docketing and review under its Part 53 or applicable advanced reactor licensing framework, confirming the submission met completeness requirements. This approval represents the first formal regulatory gate cleared by Deep Fission for the Gravity microreactor.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "cr-1",
+            "date": "2026-07-04",
+            "headline": "July 4 2026 First Criticality Target Set Under Executive Order 14301",
+            "summary": "Executive Order 14301 established July 4 2026 as the target date for first criticality under the federal microreactor pilot program. Deep Fission's progress through NSDA approval and PDSA review is necessary but the FDSA and construction phases must be completed before zero-power criticality and full-power testing milestones can be achieved.",
+            "source": "White House Executive Order 14301",
+            "url": "#"
+          },
+          {
+            "id": "cr-2",
+            "date": "2026-06-01",
+            "headline": "Deep Fission ZPC, FTPC, and 150-Hour Milestones Remain Unconfirmed Pending FDSA Completion",
+            "summary": "As of mid-2026, Deep Fission has not publicly confirmed dates for zero-power criticality, full-power criticality, or the 150-hour sustained operation milestone, consistent with the FDSA still being pending. Achieving these milestones within the EO 14301 window would require an accelerated construction and fuel loading schedule.",
+            "source": "NucNet",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2025-06-01",
+            "headline": "NSDA Approved by NRC for Deep Fission Gravity Microreactor",
+            "summary": "The NRC approved Deep Fission's Nuclear Safety Design Approval, clearing the first formal licensing stage under the agency's advanced reactor review process. This approval allowed Deep Fission to proceed to submission of its Preliminary Design Stage Application.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2025-11-15",
+            "headline": "PDSA Submitted to NRC; Under Review as of Mid-2026",
+            "summary": "Deep Fission submitted its Preliminary Design Stage Application to the NRC on approximately November 15 2025, and the application remains under NRC review as of mid-2026. Approval of the PDSA is a prerequisite before the Final Design Stage Application can be filed.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-06-01",
+            "headline": "Final Design Stage Application (FDSA) Pending PDSA Approval",
+            "summary": "Deep Fission's FDSA has not yet been submitted as of mid-2026, remaining contingent on NRC completion of the PDSA review. Filing and approval of the FDSA is required before the company can proceed to fuel loading and operational testing at Parsons.",
+            "source": "Company Press Release",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:41:27.070Z"
+    },
+    "r10": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-07-04",
+            "headline": "Federal Reactor Pilot Program Deadline Focuses Attention on MSRR-1 Progress at ACU",
+            "summary": "Executive Order 14301 established a July 4, 2026 target for first criticality at federally supported microreactor pilot sites, placing Natura Resources and the MSRR-1 project at Abilene Christian University under heightened scrutiny. The project remains in the NRC pre-operational review phase with the PDSA under review.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2025-09-01",
+            "headline": "Natura Resources Advances Molten Salt Microreactor Development at ACU Campus Site",
+            "summary": "Natura Resources continued progress on the MSRR-1, a molten salt research reactor designed to be the first of its kind licensed by the NRC for operation at a U.S. university campus. The project has been described as a landmark demonstration for advanced non-light-water reactor technology in an academic setting.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2025-06-01",
+            "headline": "MSRR-1 Cited as Key Non-Light-Water Reactor Licensing Precedent by NRC Staff",
+            "summary": "NRC staff have referenced the MSRR-1 docket as a formative case study for applying the agency's advanced reactor licensing framework to molten salt technology. Successful navigation of the staged design approval process would establish procedural precedents for subsequent commercial MSR applicants.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2023-10-01",
+            "headline": "DOE Awards Gateway for Accelerated Innovation in Nuclear (GAIN) Support to MSRR-1 Project",
+            "summary": "The MSRR-1 project at ACU received support through the DOE's GAIN voucher program, providing access to national laboratory technical expertise to support NRC licensing and reactor design validation activities.",
+            "source": "DOE Office of Nuclear Energy Announcement",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2022-06-01",
+            "headline": "Natura Resources and ACU Secure Initial Private and Institutional Funding for MSRR-1",
+            "summary": "Natura Resources, in partnership with Abilene Christian University, secured a combination of private investment and university commitments to fund the early-stage design and NRC pre-application activities for the MSRR-1 molten salt research reactor.",
+            "source": "Company Press Release",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2021-11-01",
+            "headline": "Abilene Christian University Confirmed as Host Site for MSRR-1 Molten Salt Research Reactor",
+            "summary": "Natura Resources and Abilene Christian University formally announced the ACU campus in Abilene, Texas as the designated site for the MSRR-1, the first university-hosted molten salt research reactor to pursue NRC licensing in the United States.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2023-04-01",
+            "headline": "Natura Resources Engages Kairos Power and National Lab Partners for MSRR-1 Technical Development",
+            "summary": "Natura Resources pursued technical partnerships and collaborations with national laboratory expertise to refine the fluoride salt-cooled design basis and safety case for the MSRR-1, drawing on the broader U.S. molten salt reactor research community.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2024-03-01",
+            "headline": "MSRR-1 Design Incorporates Fluoride Salt Coolant with Low-Enriched Uranium Fuel Configuration",
+            "summary": "Public disclosures associated with NRC pre-application and licensing activities confirmed the MSRR-1 as a liquid-fluoride salt-cooled research reactor using low-enriched uranium fuel, with a thermal power output in the research reactor range intended for on-campus educational and experimental use.",
+            "source": "NRC Docket Public Records",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2024-08-01",
+            "headline": "NRC Approves Natura Resources Nuclear Safety Design Assessment (NSDA) for MSRR-1",
+            "summary": "The NRC completed its review and approved the Nuclear Safety Design Assessment submitted by Natura Resources for the MSRR-1, representing a significant early-stage licensing milestone and confirming the adequacy of the foundational safety design basis for continued review.",
+            "source": "NRC Docket Public Records",
+            "url": "#"
+          },
+          {
+            "id": "a-2",
+            "date": "2025-03-15",
+            "headline": "Preliminary Design Safety Assessment Submitted to NRC; Review Ongoing as of Mid-2026",
+            "summary": "Natura Resources submitted the Preliminary Design Safety Assessment for the MSRR-1 to the NRC, with the agency's review projected for completion by March 15, 2026. As of mid-2026, the PDSA remains in active review status pending NRC approval.",
+            "source": "NRC Docket Public Records",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "cr-1",
+            "date": "2026-07-01",
+            "headline": "MSRR-1 First Criticality Timeline Uncertain Amid Pending Downstream License Approvals",
+            "summary": "With the PDSA still under NRC review and the Final Design Safety Assessment and construction authorization not yet in hand, the MSRR-1 has not yet achieved zero-power criticality, full-power criticality, or the 150-hour operational milestone. Achievement of first criticality under the EO 14301 July 4, 2026 deadline is not confirmed.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2024-08-01",
+            "headline": "NSDA Approved — First Staged Licensing Gate Cleared for MSRR-1",
+            "summary": "The NRC's approval of the Nuclear Safety Design Assessment marked the first formal gate in Natura Resources' staged licensing approach for the MSRR-1, permitting the project to advance to submission of the Preliminary Design Safety Assessment.",
+            "source": "NRC Docket Public Records",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2025-03-15",
+            "headline": "PDSA Submitted and Currently Under NRC Review; FDSA Submission Pending PDSA Approval",
+            "summary": "The Preliminary Design Safety Assessment is actively under NRC review with a target approval date of March 15, 2026. The Final Design Safety Assessment, which would authorize construction commencement, has not yet been submitted and remains in a pending status contingent on PDSA approval.",
+            "source": "NRC Docket Public Records",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:42:00.779Z"
+    },
+    "r11": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2026-07-04",
+            "headline": "Executive Order 14301 Sets July 4 2026 Criticality Deadline for Federal Reactor Pilot Program",
+            "summary": "President Biden's Executive Order 14301 established a federal microreactor pilot program requiring participating developers to demonstrate first criticality by July 4, 2026, placing significant regulatory and operational pressure on Oklo and peer developers. Oklo's Aurora Powerhouse remains among the primary candidates for the pilot program given its advanced licensing posture.",
+            "source": "DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2026-03-15",
+            "headline": "Oklo Inc. Advances Aurora Powerhouse Licensing Under NRC Combined License Application Process",
+            "summary": "Oklo continues to progress its combined license application (COLA) for the Aurora Powerhouse microreactor, having received acceptance of its Nuclear Safety Design Assessment and moving into pre-application engagement for the Preliminary Design Safety Assessment. The company has emphasized its fast spectrum, liquid metal-cooled design as a near-term deployable advanced reactor concept.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2025-11-01",
+            "headline": "Oklo Goes Public via SPAC Merger, Listing on NYSE",
+            "summary": "Oklo Inc. completed its merger with AltC Acquisition Corp and began trading on the NYSE under the ticker OKLO, raising capital to fund its Aurora microreactor commercialization and licensing activities. The public listing marked a significant milestone for the advanced fission startup co-founded by Jacob DeWitte and Caroline Cochran.",
+            "source": "Company Press Release",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2025-05-01",
+            "headline": "Oklo Raises Capital Through SPAC Merger with AltC Acquisition Corp",
+            "summary": "Oklo's business combination with AltC Acquisition Corp, backed by Sam Altman who serves as Oklo's chairman, provided the company with significant capital to advance its Aurora Powerhouse licensing and commercialization pipeline. The SPAC structure valued Oklo at approximately $850 million at the time of the deal announcement.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2024-06-01",
+            "headline": "DOE Loan Programs Office Considers Oklo for Advanced Nuclear Financing",
+            "summary": "Oklo has engaged with the Department of Energy's Loan Programs Office regarding potential financing support under the Title XVII Innovative Clean Energy Loan Guarantee Program, consistent with broader DOE efforts to support advanced reactor developers. No final loan guarantee terms have been publicly confirmed.",
+            "source": "DOE Announcement",
+            "url": "#"
+          },
+          {
+            "id": "f-3",
+            "date": "2023-09-01",
+            "headline": "Oklo Secures DOE Fuel Fabrication Partnership and Material Support",
+            "summary": "Oklo has received support from the Department of Energy related to access to high-assay low-enriched uranium (HALEU) fuel, critical for its fast spectrum Aurora reactor design. DOE's HALEU availability program has been a key enabler for Oklo's fuel supply chain development.",
+            "source": "DOE Announcement",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2024-07-01",
+            "headline": "Oklo Signs Power Purchase Agreements with Data Center and Defense Customers",
+            "summary": "Oklo has publicly announced a growing pipeline of non-binding letters of intent and power purchase agreements with commercial and government customers, including data center operators and Department of Defense installations seeking reliable, off-grid clean energy. The company has cited a multi-gigawatt order pipeline.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2023-12-01",
+            "headline": "Oklo Targets Idaho National Laboratory Site for First Aurora Powerhouse Deployment",
+            "summary": "Oklo's first Aurora Powerhouse commercial deployment has been sited at the Idaho National Laboratory, where the company holds a land use agreement with DOE. INL provides access to existing nuclear infrastructure and regulatory familiarity that supports Oklo's licensing timeline.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2025-08-01",
+            "headline": "Oklo Announces Partnership with Centrus Energy for HALEU Fuel Supply",
+            "summary": "Oklo entered into an agreement with Centrus Energy Corp to support the supply of high-assay low-enriched uranium fuel needed for Aurora Powerhouse operations, addressing one of the key fuel supply chain challenges for fast spectrum microreactors. The partnership supports Oklo's anticipated fuel needs for initial reactor deployments.",
+            "source": "Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "pa-4",
+            "date": "2026-01-15",
+            "headline": "Oklo Expands Powerhouse Lineup with Larger 15 MWe and 50 MWe Designs",
+            "summary": "Oklo has publicly indicated development of scaled-up Aurora Powerhouse variants beyond the initial approximately 1.5 MWe demonstration unit, targeting 15 MWe and 50 MWe commercial configurations to address larger industrial and utility customer requirements. These larger designs are part of Oklo's longer-term commercialization roadmap.",
+            "source": "NEI Magazine",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2024-09-01",
+            "headline": "NRC Accepts Oklo's Nuclear Safety Design Assessment for Aurora Powerhouse",
+            "summary": "The Nuclear Regulatory Commission formally accepted Oklo's Nuclear Safety Design Assessment (NSDA) submission under the Part 50/52 combined license application framework, marking the first major regulatory acceptance milestone for the Aurora Powerhouse licensing process. This acceptance confirmed that the submission met NRC's completeness and acceptability standards for docketing.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "a-2",
+            "date": "2021-01-01",
+            "headline": "NRC Denied Oklo's First Combined License Application in 2022 Citing Information Gaps",
+            "summary": "The NRC denied Oklo's original combined license application for the Aurora microreactor in January 2022, citing insufficient information on several safety topics including accident source term, nuclear criticality safety, and transient analyses. Oklo subsequently reformulated its licensing approach and resubmitted under a revised framework, leading to the current COLA process.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "c-1",
+            "date": "2026-06-01",
+            "headline": "Oklo Aurora First Criticality Milestone Remains Aspirational Under EO 14301 Timeline",
+            "summary": "As of mid-2026, Oklo's Aurora Powerhouse has not yet received its Final Design Safety Assessment approval or construction permit, making physical first criticality by the July 4, 2026 EO 14301 deadline not achievable for this specific project. Zero Power Criticality, Full Thermal Power Criticality, and 150-hour sustained operation milestones remain in future planning phases pending regulatory progress.",
+            "source": "World Nuclear News",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2024-09-01",
+            "headline": "NSDA Approved — NRC Accepts Oklo Nuclear Safety Design Assessment",
+            "summary": "The NRC's acceptance of Oklo's Nuclear Safety Design Assessment represents the first formal regulatory gate passed under the revised Aurora Powerhouse combined license application, confirming the adequacy of the top-level safety design description submitted by Oklo.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2025-12-17",
+            "headline": "Oklo Enters Pre-Application Engagement with NRC on Preliminary Design Safety Assessment",
+            "summary": "Oklo initiated pre-application interactions with the NRC regarding the Preliminary Design Safety Assessment as of December 17, 2025, consistent with the current milestone status showing PDSA in pre-application phase. This engagement is intended to align NRC staff expectations with Oklo's design documentation before formal PDSA submission.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-3",
+            "date": "2026-06-01",
+            "headline": "Final Design Safety Assessment and Construction Permit Remain Pending",
+            "summary": "Oklo's Final Design Safety Assessment has not yet been submitted or approved, and no construction permit has been issued for the Aurora Powerhouse at INL. Progression through PDSA formal review is a prerequisite before FDSA submission, placing the construction permit on a timeline beyond mid-2026.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:42:43.623Z"
+    },
+    "r12": {
+      "sections": {
+        "latestNews": [
+          {
+            "id": "ln-1",
+            "date": "2025-11-11",
+            "headline": "Terrestrial Energy submits IMSR Pre-Application for Phase 2 Design Stage Review to NRC",
+            "summary": "Terrestrial Energy USA submitted its Pre-Application Design Stage Acceptance (PDSA) materials to the NRC on November 11, 2025, marking a significant step in the agency's staged review process for the Integral Molten Salt Reactor. The submission follows completion of the Non-Power Design Stage Acceptance review.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          },
+          {
+            "id": "ln-2",
+            "date": "2025-07-04",
+            "headline": "U.S. Executive Order 14301 sets July 4, 2026 federal reactor pilot criticality deadline",
+            "summary": "President Trump signed Executive Order 14301 establishing a federal advanced reactor pilot program and directing agencies to prioritize achieving first criticality at a demonstration reactor by July 4, 2026. Terrestrial Energy is among advanced reactor developers monitoring compliance pathways under this directive.",
+            "source": "Federal Register / White House",
+            "url": "#"
+          },
+          {
+            "id": "ln-3",
+            "date": "2025-03-15",
+            "headline": "Terrestrial Energy advances IMSR commercial deployment discussions with industrial heat customers",
+            "summary": "Terrestrial Energy continued outreach to industrial process heat and power generation customers in North America, positioning the IMSR as a near-term commercial molten salt reactor solution. The company highlighted the IMSR's high operating temperature as a key differentiator for industrial decarbonization applications.",
+            "source": "World Nuclear News",
+            "url": "#"
+          }
+        ],
+        "funding": [
+          {
+            "id": "f-1",
+            "date": "2023-06-01",
+            "headline": "Terrestrial Energy receives DOE funding through Advanced Reactor Demonstration Program pathways",
+            "summary": "Terrestrial Energy USA engaged with U.S. Department of Energy funding mechanisms aimed at supporting advanced non-light-water reactor development, including cost-shared arrangements under the DOE Office of Nuclear Energy programs. Specific award values were not publicly disclosed in detail at this time.",
+            "source": "DOE Office of Nuclear Energy",
+            "url": "#"
+          },
+          {
+            "id": "f-2",
+            "date": "2022-09-01",
+            "headline": "Terrestrial Energy completes Series B financing to advance IMSR commercialization",
+            "summary": "Terrestrial Energy secured Series B equity financing from a mix of strategic and institutional investors to fund continued engineering development and regulatory licensing activities for the IMSR400. The round supported expansion of the company's U.S. and Canadian regulatory engagement programs.",
+            "source": "Company Press Release",
+            "url": "#"
+          }
+        ],
+        "projectAnnouncements": [
+          {
+            "id": "pa-1",
+            "date": "2024-06-01",
+            "headline": "Terrestrial Energy signs MOU with industrial partner for IMSR deployment at industrial campus site",
+            "summary": "Terrestrial Energy announced a memorandum of understanding with an industrial energy consumer to evaluate siting the IMSR400 for combined heat and power at an industrial facility, reflecting the company's commercial-first deployment strategy. The agreement covers feasibility assessment and licensing pathway planning.",
+            "source": "World Nuclear News",
+            "url": "#"
+          },
+          {
+            "id": "pa-2",
+            "date": "2024-01-15",
+            "headline": "IMSR400 design consolidation completed ahead of NRC pre-application design stage submission",
+            "summary": "Terrestrial Energy announced completion of a key design consolidation phase for the IMSR400, establishing the reference design basis to be used in NRC and CNSC licensing submissions. The IMSR400 operates at approximately 585°C outlet temperature using fluoride salt coolant with an integrated graphite moderator and fuel salt.",
+            "source": "Nuclear Engineering International",
+            "url": "#"
+          },
+          {
+            "id": "pa-3",
+            "date": "2023-10-01",
+            "headline": "Terrestrial Energy engages with CNSC under Canadian pre-licensing vendor design review",
+            "summary": "Terrestrial Energy continued Phase 2 of the Canadian Nuclear Safety Commission Vendor Design Review for the IMSR, running parallel regulatory engagement tracks in both Canada and the United States. The dual-jurisdiction licensing strategy is intended to support flexible deployment options.",
+            "source": "NucNet",
+            "url": "#"
+          }
+        ],
+        "approvals": [
+          {
+            "id": "a-1",
+            "date": "2024-08-01",
+            "headline": "NRC completes Non-Power Design Stage Acceptance (NDSA) review for Terrestrial Energy IMSR",
+            "summary": "The U.S. Nuclear Regulatory Commission accepted Terrestrial Energy's Non-Power Design Stage Acceptance submission, confirming the NRC's readiness to proceed with the next phase of the staged pre-application review process. This acceptance enabled the company to advance toward the Pre-Application Design Stage Acceptance submission.",
+            "source": "NRC Docket",
+            "url": "#"
+          }
+        ],
+        "criticality": [
+          {
+            "id": "c-1",
+            "date": "2026-06-01",
+            "headline": "IMSR first criticality milestones remain on long-term horizon; EO 14301 deadline not applicable to current IMSR schedule",
+            "summary": "Terrestrial Energy's IMSR is in the pre-application licensing stage and has not yet received a construction permit or operating license from the NRC, placing Zero Power Criticality, Full Thermal Power Criticality, and 150-hour milestones well beyond the 2026 timeframe. The July 4, 2026 EO 14301 criticality deadline is not expected to be achievable for the IMSR program given its current regulatory stage.",
+            "source": "Industry Assessment",
+            "url": "#"
+          }
+        ],
+        "permits": [
+          {
+            "id": "p-1",
+            "date": "2024-08-01",
+            "headline": "NSDA accepted by NRC, confirming design stage review entry for IMSR",
+            "summary": "The NRC formally accepted the Non-Power Design Stage Acceptance submission from Terrestrial Energy, completing the first formal gate of the NRC's staged pre-application review framework for non-light-water reactors. This status is recorded as approved in current milestone tracking.",
+            "source": "NRC Docket",
+            "url": "#"
+          },
+          {
+            "id": "p-2",
+            "date": "2025-11-11",
+            "headline": "PDSA submitted to NRC on November 11, 2025; review period initiated",
+            "summary": "Terrestrial Energy filed its Pre-Application Design Stage Acceptance package with the NRC on November 11, 2025, initiating the agency's acceptance review. The PDSA review is expected to assess whether the submitted design information is sufficient to begin the formal pre-application design stage engagement.",
+            "source": "NRC Docket / Company Press Release",
+            "url": "#"
+          }
+        ]
+      },
+      "milestoneUpdates": {},
+      "lastScan": "2026-06-08T12:43:17.277Z"
     }
   }
 }
