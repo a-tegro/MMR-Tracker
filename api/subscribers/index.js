@@ -1,4 +1,4 @@
-import { loadSubscribers, saveSubscribers } from '../../lib/subscribers.js'
+import { isSubscribed, addSubscriber } from '../../lib/subscribers.js'
 import { sendWelcomeEmail } from '../../lib/email.js'
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -14,17 +14,13 @@ export default async function handler(req, res) {
   }
 
   const normalised = email.trim().toLowerCase()
-  const subscribers = await loadSubscribers()
 
-  if (subscribers.some(s => s.email === normalised)) {
-    // Idempotent — already subscribed is a success
+  if (await isSubscribed(normalised)) {
     return res.json({ ok: true, alreadySubscribed: true })
   }
 
-  subscribers.push({ email: normalised, subscribedAt: new Date().toISOString() })
-  await saveSubscribers(subscribers)
-
-  console.log(`[Subscribers] New subscriber: ${normalised} (total: ${subscribers.length})`)
+  await addSubscriber(normalised)
+  console.log(`[Subscribers] New subscriber: ${normalised}`)
 
   // Send welcome email — fire-and-forget, don't block the response
   sendWelcomeEmail(normalised).catch(() => {})

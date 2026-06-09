@@ -1,4 +1,4 @@
-import { loadSubscribers, saveSubscribers } from '../../lib/subscribers.js'
+import { removeSubscriber } from '../../lib/subscribers.js'
 
 function page(title, body) {
   return `<!DOCTYPE html>
@@ -50,13 +50,8 @@ export default async function handler(req, res) {
     `))
   }
 
-  const subscribers = await loadSubscribers()
-  const filtered = subscribers.filter(s => s.email !== email.toLowerCase())
-
-  if (filtered.length < subscribers.length) {
-    await saveSubscribers(filtered)
-    console.log(`[Subscribers] Unsubscribed: ${email}`)
-  }
+  await removeSubscriber(email.toLowerCase())
+  console.log(`[Subscribers] Unsubscribed: ${email}`)
 
   res.setHeader('Content-Type', 'text/html')
   res.send(page('Unsubscribed', `
