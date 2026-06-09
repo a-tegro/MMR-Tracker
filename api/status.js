@@ -12,7 +12,6 @@ export default async function handler(req, res) {
     subscriberCount: subscribers.length,
     anthropicConfigured: !!process.env.ANTHROPIC_API_KEY,
     resendConfigured: !!process.env.RESEND_API_KEY,
-    audienceConfigured: !!(process.env.RESEND_API_KEY && process.env.RESEND_AUDIENCE_ID),
     kvConfigured: !!(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN),
   })
 }

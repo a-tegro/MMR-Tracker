@@ -15,15 +15,22 @@ export default async function handler(req, res) {
 
   const normalised = email.trim().toLowerCase()
 
-  if (await isSubscribed(normalised)) {
-    return res.json({ ok: true, alreadySubscribed: true })
+  try {
+    if (await isSubscribed(normalised)) {
+      return res.json({ ok: true, alreadySubscribed: true })
+    }
+    await addSubscriber(normalised)
+  } catch (err) {
+    console.error('[Subscribers] Error:', err.message)
+    return res.status(500).json({ error: err.message || 'Failed to save subscriber' })
   }
 
-  await addSubscriber(normalised)
   console.log(`[Subscribers] New subscriber: ${normalised}`)
 
   // Send welcome email — fire-and-forget, don't block the response
-  sendWelcomeEmail(normalised).catch(() => {})
+  sendWelcomeEmail(normalised).catch(err =>
+    console.error('[Subscribers] Welcome email failed:', err.message)
+  )
 
   res.json({ ok: true })
 }
