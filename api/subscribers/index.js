@@ -1,4 +1,5 @@
 import { loadSubscribers, saveSubscribers } from '../../lib/subscribers.js'
+import { sendWelcomeEmail } from '../../lib/email.js'
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
@@ -24,5 +25,9 @@ export default async function handler(req, res) {
   await saveSubscribers(subscribers)
 
   console.log(`[Subscribers] New subscriber: ${normalised} (total: ${subscribers.length})`)
+
+  // Send welcome email — fire-and-forget, don't block the response
+  sendWelcomeEmail(normalised).catch(() => {})
+
   res.json({ ok: true })
 }
